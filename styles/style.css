@@ -484,3 +484,170 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     display: block;
 }
 /*----------------------end style header---------------*/
+
+/*----------------------style statistic-----------------*/
+.container-game{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1000;
+}
+.section-game{
+    background: url("../image/bg-statistic.png")no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 346px;
+    margin-top: 118px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.container-list-statistic{
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 66px;
+}
+.name-title h1{
+    font-size: 26px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.name-title{
+    background: linear-gradient(to right, rgba(231,148,32,1) 0%, rgba(230,147,31,1) 100%);
+    max-width: 234px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 23px;
+}
+.header-section{
+    background: linear-gradient(to right, rgba(254,170,43,1) 0%, rgba(253,166,37,1) 100%);
+    max-width: 428px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    border: 3px solid #e38d11;
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -22px;
+}
+.reit{
+    position: relative;
+    margin-right: 5px;
+}
+.reit:after{
+    content: '';
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(228,152,39,1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(228,152,39,1);
+    box-shadow: 0px 0px 0px 5px rgba(228,152,39,1);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.info-item{
+    border-radius: 20px;
+    border: 2px solid #bf4f00;
+    max-width: 173px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(230,97,2,1) 0%, rgba(243,134,0,1) 100%);
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    box-shadow: 0px 0px 0px 4px rgba(155,155,155,0.31);
+    padding: 7px;
+    position: relative;
+}
+.list-statistic{
+    display: flex;
+    align-items: flex-end;
+}
+.title-item{
+    font-size: 13px;
+    color: #ffe48a;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 9px 0;
+}
+.result{
+    background: linear-gradient(to bottom, rgba(206,97,2,1) 0%, rgba(226,117,1,1) 100%);
+    border-radius: 10px;
+    padding: 16px 0;
+}
+.result-info{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.statistic-item{
+    position: relative;
+    padding-top: 113px;
+    max-width: 191px;
+    width: 100%;
+    margin-right: 27px;
+}
+.statistic-item:last-child{
+    margin-right: 0;
+}
+.statistic-item:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.investment:before{
+    background: url("../image/investment.png")no-repeat;
+    width: 102px;
+    height: 107px;
+    background-size: contain;
+    top: 24px;
+}
+.players:before{
+    background: url("../image/players.png")no-repeat;
+    width: 110px;
+    height: 129px;
+    background-size: contain;
+    top: 10px;
+}
+.bee:before {
+    background: url("../image/bee.png") no-repeat;
+    width: 160px;
+    height: 153px;
+    background-size: contain;
+}
+.won:before{
+    background: url("../image/won.png")no-repeat;
+    width: 101px;
+    height: 107px;
+    background-size: contain;
+    top: 24px;
+}
+.hive:before {
+    background: url("../image/hive.png") no-repeat;
+    width: 95px;
+    height: 135px;
+    background-size: contain;
+    top: 5px;
+}
+/*----------------------end statistic-------------------*/
