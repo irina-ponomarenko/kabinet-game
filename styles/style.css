@@ -491,6 +491,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     width: 100%;
     margin: 0 auto;
     z-index: 1000;
+    position: relative;
 }
 .section-game{
     background: url("../image/bg-statistic.png")no-repeat;
