@@ -651,3 +651,190 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     top: 5px;
 }
 /*----------------------end statistic-------------------*/
+
+/*----------------------start mechanism------------------*/
+
+.mechanism{
+    width: 100%;
+    background: url("../image/bg-pipes.png")no-repeat;
+    background-position: 100% 85%;
+    background-size: contain;
+    min-height: 552px;
+    margin-top: 104px;
+    position: relative;
+}
+.pipes{
+    max-width: 978px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 531px;
+}
+.trumpet-honey{
+    background: url("../image/trumpet-honey.png")no-repeat;
+    background-position: right;
+    height: 138px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.trumpet-wax{
+    background: url("../image/trumpet-wax.png")no-repeat;
+    background-position: center;
+    height: 138px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.trumpet-top{
+    width: 100%;
+    background: url("../image/trumpet-top.png")no-repeat;
+    background-position: top;
+    height: 34px;
+    position: absolute;
+}
+.trumpet-left{
+    width: 100%;
+    background: url("../image/trumpet-left.png")no-repeat;
+    background-position: left;
+    height: 531px;
+    position: absolute;
+    top: 0;
+}
+.mehanizm-container{
+    width: 100%;
+    background: url("../image/mehanizm.png")no-repeat;
+    background-position: left;
+    height: 337px;
+    position: absolute;
+    bottom: 80px;
+    left: 32px;
+    max-width: 180px;
+    width: 100%;
+}
+.upgrade{
+    width: 110px;
+    margin: 0 auto;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+}
+.text-block-upgrade{
+    background-color: rgba(147,147,147, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    padding: 18px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.upgrade-btn{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 0px 1px 0px 0.5px rgba(132,132,132,0.53);
+    -moz-box-shadow: 0px 1px 0px 0.5px rgba(132,132,132,0.53);
+    box-shadow: 0px 1px 0px 0.5px rgba(132,132,132,0.53);
+    background: linear-gradient(to bottom, rgba(255,199,59,1) 0%, rgba(235,142,21,1) 100%);
+    width: 100px;
+    height: 46px;
+}
+.upgrade-btn:hover{
+    background: linear-gradient(to bottom, rgba(235,142,21,1) 0%, rgba(255,199,59,1) 100%);
+}
+.wrapper-btn-upgrade{
+   text-align: center;
+    background-color: rgba(147,147,147, 0.5);
+    border-radius: 20px;
+    border: 5px solid rgba(147,147,147, 0.5);
+    margin-top: 9px;
+}
+.item-time{
+    border-radius: 20px;
+    width: 249px;
+    height: 62px;
+    padding: 7px;
+}
+.wax-time{
+    border: 3px solid #e38d11;
+    background: linear-gradient(to bottom, rgba(255,177,59,1) 0%, rgba(251,155,11,1) 100%);
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    margin-right: 115px;
+}
+.honey-time{
+    border: 3px solid #827d7d;
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    background: linear-gradient(to right, rgba(154,154,154,1) 0%, rgba(194,194,194,1) 100%);
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+    border-radius: 15px;
+}
+.score p{
+    font-weight: 800;
+    font-size: 26px;
+    margin-right: 9px;
+}
+.score span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.wax-and-honey-in-time{
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    top: -25px;
+}
+.honey-time .score{
+    background: linear-gradient(to right, rgba(124,124,124,1) 0%, rgba(155,155,155,1) 100%);
+}
+.wax-time .score{
+    background-color: #e69423;
+}
+.wrapper-active{
+    position: absolute;
+    height: 362px;
+    bottom: 50px;
+    left: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.wrapper-active-honey{
+    position: absolute;
+    height: 362px;
+    bottom: 50px;
+    right: -83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.drop-wax{
+    width: 50px;
+    height: 47px;
+    background: url("../image/drop-wax.png")no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+.drop-honey{
+    width: 38px;
+    height: 60px;
+    background: url("../image/drop-honey.png")no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+/*-----------------------end mechanism--------------------*/
