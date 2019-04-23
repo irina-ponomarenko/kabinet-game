@@ -158,6 +158,7 @@ button{
 .bg-body{
     position: relative;
     z-index: 0;
+    background-color: #f5f8fa;
 }
 .bg-body:before{
     content: '';
@@ -198,7 +199,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     z-index: 1000000;
 }
 .center-block{
-    background: url("../image/center-header.jpg")no-repeat;
+    background: url("../image/center-header.png")no-repeat;
     width: 1000px;
     background-size: 100% 100%;
 }
