@@ -856,12 +856,20 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 .game-rounds{
     width: 100%;
-    background: url("../image/tryba-drop.png")repeat-y;
-    background-position: 105px 100%;
     height: 100%;
     min-height: 280px;
     position: relative;
     top: -5px;
+}
+.game-rounds:before{
+    content: '';
+    position: absolute;
+    background: url("../image/tryba-drop.png")repeat-y;
+    background-position: 105px 100%;
+    top: 0;
+    bottom: 186px;
+    left: 0;
+    right: 0;
 }
 .window{
     width: 34px;
@@ -875,7 +883,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     background: url("../image/window.png")repeat-y;
     left: 0;
     width: 34px;
-    height: 100%;
+    height: 95%;
 }
 .tryba-drop{
     position: absolute;
