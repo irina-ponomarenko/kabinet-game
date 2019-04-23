@@ -1033,17 +1033,18 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .tryba-drop:first-child{
-    top: 10px;
+    top: 13px;
     left: 3px;
 }
 .tryba-drop:nth-child(2){
-    top: 100px;
+    top: 105px;
      right: 2px;
 }
 .tryba-drop:nth-child(3){
-    top: 200px;
+    top: 205px;
      left: 2px;
 }
 .tryba-drop img{
@@ -1066,91 +1067,91 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @keyframes animationFrames1{
     0% {
-        transform:  translate(1px,14px)  ;
+        transform:  translate(0px,34px)  ;
     }
-    21% {
-        transform:  translate(1px,5px)  ;
+    12% {
+        transform:  translate(-1px,20px)  ;
     }
-    46% {
-        transform:  translate(-2px,-1px)  ;
+    34% {
+        transform:  translate(2px,7px)  ;
     }
-    77% {
-        transform:  translate(2px,-7px)  ;
+    56% {
+        transform:  translate(2px,-2px)  ;
     }
     100% {
-        transform:  translate(6px,-8px)  ;
+        transform:  translate(1px,-32px)  ;
     }
 }
 
 @-moz-keyframes animationFrames1{
     0% {
-        -moz-transform:  translate(1px,14px)  ;
+        -moz-transform:  translate(0px,34px)  ;
     }
-    21% {
-        -moz-transform:  translate(1px,5px)  ;
+    12% {
+        -moz-transform:  translate(-1px,20px)  ;
     }
-    46% {
-        -moz-transform:  translate(-2px,-1px)  ;
+    34% {
+        -moz-transform:  translate(2px,7px)  ;
     }
-    77% {
-        -moz-transform:  translate(2px,-7px)  ;
+    56% {
+        -moz-transform:  translate(2px,-2px)  ;
     }
     100% {
-        -moz-transform:  translate(6px,-8px)  ;
+        -moz-transform:  translate(1px,-32px)  ;
     }
 }
 
 @-webkit-keyframes animationFrames1 {
     0% {
-        -webkit-transform:  translate(1px,14px)  ;
+        -webkit-transform:  translate(0px,34px)  ;
     }
-    21% {
-        -webkit-transform:  translate(1px,5px)  ;
+    12% {
+        -webkit-transform:  translate(-1px,20px)  ;
     }
-    46% {
-        -webkit-transform:  translate(-2px,-1px)  ;
+    34% {
+        -webkit-transform:  translate(2px,7px)  ;
     }
-    77% {
-        -webkit-transform:  translate(2px,-7px)  ;
+    56% {
+        -webkit-transform:  translate(2px,-2px)  ;
     }
     100% {
-        -webkit-transform:  translate(6px,-8px)  ;
+        -webkit-transform:  translate(1px,-32px)  ;
     }
 }
 
 @-o-keyframes animationFrames1 {
     0% {
-        -o-transform:  translate(1px,14px)  ;
+        -o-transform:  translate(0px,34px)  ;
     }
-    21% {
-        -o-transform:  translate(1px,5px)  ;
+    12% {
+        -o-transform:  translate(-1px,20px)  ;
     }
-    46% {
-        -o-transform:  translate(-2px,-1px)  ;
+    34% {
+        -o-transform:  translate(2px,7px)  ;
     }
-    77% {
-        -o-transform:  translate(2px,-7px)  ;
+    56% {
+        -o-transform:  translate(2px,-2px)  ;
     }
     100% {
-        -o-transform:  translate(6px,-8px)  ;
+        -o-transform:  translate(1px,-32px)  ;
     }
 }
 
 @-ms-keyframes animationFrames1 {
     0% {
-        -ms-transform:  translate(1px,14px)  ;
+        -ms-transform:  translate(0px,34px)  ;
     }
-    21% {
-        -ms-transform:  translate(1px,5px)  ;
+    12% {
+        -ms-transform:  translate(-1px,20px)  ;
     }
-    46% {
-        -ms-transform:  translate(-2px,-1px)  ;
+    34% {
+        -ms-transform:  translate(2px,7px)  ;
     }
-    77% {
-        -ms-transform:  translate(2px,-7px)  ;
+    56% {
+        -ms-transform:  translate(2px,-2px)  ;
     }
     100% {
-        -ms-transform:  translate(6px,-8px)  ;
+        -ms-transform:  translate(1px,-32px)  ;
     }
 }
 .list-game-rounds{
