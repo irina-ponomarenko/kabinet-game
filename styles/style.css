@@ -211,6 +211,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     max-height: 100px;
     display: flex;
     align-items: center;
+    min-width: 247px;
 }
 .button-btn{
     border-radius: 10px;
@@ -363,8 +364,12 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     align-items: center;
     position: relative;
 }
-.top-progress:after{
-    content: '';
+@keyframes shadow {
+    from {box-shadow: 0px 0px 30px rgba(255,221,0,0.7);}
+    50% {box-shadow: 0px 0px 0px rgba(255,221,0,0.7);}
+    to {box-shadow: 0px 0px 30px rgba(255,221,0,0.7);}
+}
+.medal-after{
     position: absolute;
     right: 0;
     top: -22px;
@@ -372,6 +377,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     background: url("../image/medal.png")no-repeat;
     width: 74px;
     height: 74px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+}
+.active-100{
+    box-shadow: 0px 0px 30px  rgba(255,221,0,0.7);
+    animation: shadow 2s infinite ease-in-out;
 }
 .container-top-progress{
     background: linear-gradient(to bottom, rgba(160,72,1,1) 0%, rgba(191,84,2,1) 100%);
@@ -759,6 +771,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     background: linear-gradient(to bottom, rgba(255,199,59,1) 0%, rgba(235,142,21,1) 100%);
     width: 100px;
     height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .upgrade-btn:hover{
     background: linear-gradient(to bottom, rgba(235,142,21,1) 0%, rgba(255,199,59,1) 100%);
@@ -866,7 +882,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @keyframes animationFrames{
     0% {
-        transform:  translate(0px,-47px)  rotate(0deg) ;
+        transform:  translate(0px,-57px)  rotate(0deg) ;
     }
     20% {
         transform:  translate(-5px,13px)  rotate(36deg) ;
@@ -887,7 +903,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-moz-keyframes animationFrames{
     0% {
-        -moz-transform:  translate(0px,-47px)  rotate(0deg) ;
+        -moz-transform:  translate(0px,-57px)  rotate(0deg) ;
     }
     20% {
         -moz-transform:  translate(-5px,13px)  rotate(36deg) ;
@@ -908,7 +924,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-webkit-keyframes animationFrames {
     0% {
-        -webkit-transform:  translate(0px,-47px)  rotate(0deg) ;
+        -webkit-transform:  translate(0px,-57px)  rotate(0deg) ;
     }
     20% {
         -webkit-transform:  translate(-5px,13px)  rotate(36deg) ;
@@ -929,7 +945,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-o-keyframes animationFrames {
     0% {
-        -o-transform:  translate(0px,-47px)  rotate(0deg) ;
+        -o-transform:  translate(0px,-57px)  rotate(0deg) ;
     }
     20% {
         -o-transform:  translate(-5px,13px)  rotate(36deg) ;
@@ -950,7 +966,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-ms-keyframes animationFrames {
     0% {
-        -ms-transform:  translate(0px,-47px)  rotate(0deg) ;
+        -ms-transform:  translate(0px,-57px)  rotate(0deg) ;
     }
     20% {
         -ms-transform:  translate(-5px,13px)  rotate(36deg) ;
@@ -985,7 +1001,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
         transform: translateY(157px);
     }
     100% {
-        transform: translateY(250px);
+        transform: translateY(240px);
     }
 }
 
@@ -2719,6 +2735,17 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
     text-align: center;
 }
+.new-round-modal-2 {
+    background: url(../image/bg-modal-small.png)no-repeat;
+    height: 532px;
+    padding-top: 94px;
+}
+.new-round-modal-2 .header-modal {
+    max-width: 322px;
+}
+.new-round-modal-2 .title-modal {
+    max-width: none;
+}
 /*--------------------end modal---------------*/
 
 
@@ -2759,337 +2786,4 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     top: 10%;
     color: red;
     z-index: 100000000000;
-}
-
-@media screen and (max-width: 1535px) and (min-width: 1000px){
-    .input-form{
-        max-width: 175px;
-        font-size: 34px;
-    }
-    .wrapper-modal{
-        max-width: 564px;
-        width: 100%;
-        height: 589px;
-        background-size: contain;
-    }
-    .container-modal {
-        min-height: 385px;
-    }
-    .container-table {
-        margin: 0 auto;
-        margin-top: 66px;
-        margin-bottom: 24px;
-        min-height: 370px;
-    }
-    .table-modal {
-        max-width: 485px;
-    }
-    .footer-modal{
-        max-width: 522px;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
-        min-height: 100px;
-    }
-    .footer-input:first-child {
-        margin-right: 30px;
-    }
-    .table-modal tbody{
-        max-height: 330px;
-    }
-    .footer-input{
-        max-width: 230px;
-    }
-    .table-modal tbody tr td {
-        height: 18px;
-    }
-    .table-modal thead th {
-        padding-top: 15px;
-        border-top: none;
-    }
-    .close-modal {
-        width: 50px;
-        height: 50px;
-    }
-    .uley-input span{
-        right: 39px;
-    }
-    .medal-input{
-        width: 60px;
-        height: 60px;
-        top: -3px;
-    }
-    .medal-input img{
-        width: 100%;
-    }
-    .uley-input h3 {
-        margin-left: 10px;
-    }
-    .table-modal tbody tr td{
-        color: #000000;
-        font-weight: bold;
-    }
-    .table-modal tbody tr td span{
-        font-size: 11px;
-        color: #000000;
-    }
-    .table-modal thead th, .table-modal tbody tr td{
-        padding: 8px 10px;
-    }
-    .doxod:before{
-        width: 18px;
-        height: 19px;
-    }
-    .activ-honey:before{
-        width: 18px;
-        height: 20px;
-        top: -3px;
-    }
-    .summa{
-        padding-left: 25px;
-    }
-    .doxod{
-        padding-left: 22px;
-        margin-right: 0;
-        padding-right: 0;
-    }
-    .nuber-position:before{
-        width: 31px;
-        height: 31px;
-    }
-    .nuber-position{
-        padding-right: 34px;
-    }
-    .pay-bee .container-modal {
-        padding-top: 64px;
-    }
-    .about-bee{
-        max-width: 400px;
-        margin-bottom: 10px;
-        font-size: 14px;
-    }
-    .img-bee{
-        max-width: 220px;
-        width: 100%;
-        display: block;
-    }
-    .img-bee img{
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    .my-bee-home {
-        margin-top: 26px;
-        margin-bottom: 15px;
-    }
-    .green-bee-btn {
-        width: 190px !important;
-        height: 50px;
-        font-size: 18px;
-    }
-    .buy-wax{
-        max-width: 500px;
-        height: 450px;
-    }
-    .pay-wax{
-        margin-bottom: 20px;
-    }
-    .center-change, .center-change span{
-        font-size: 32px;
-    }
-    .center-change{
-        margin-bottom: 30px;
-    }
-    .limit p {
-        font-size: 18px;
-    }
-    .error-honey{
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-    .container-pay-bee{
-        padding: 8px 10px;
-    }
-    .summa-dohod img{
-        width: 30px;
-        height: auto;
-    }
-    .all-dohod{
-        font-size: 23px;
-    }
-    .balance-footer-block{
-        position: absolute;
-        bottom: 19px;
-        left: 0;
-        right: 0;
-    }
-    .puy-wax .wrapper-bottom-footer-modal {
-        bottom: -15px;
-    }
-    .puy-wax .pay-wax {
-        margin-bottom: 65px;
-    }
-    .puy-wax .title-modal h2 {
-        font-size: 22px;
-    }
-    .modernize .title-modal {
-        max-width: 300px;
-    }
-    .modernize .header-modal {
-        max-width: 347px;
-    }
-    .wrapper-content-box {
-        margin-bottom: 25px;
-    }
-    .margin-bottom {
-        margin-bottom: 25px;
-    }
-    .modernize-btn{
-        height: 50px;
-    }
-    .buy-honey-btn {
-        width: 230px;
-    }
-    .modernize {
-        max-width: 500px;
-    }
-    .percent-status {
-        font-size: 24px;
-    }
-    .title-content-box{
-        margin-bottom: 11px;
-    }
-    .modernize .balance-footer-block{
-        bottom: 24px;
-    }
-    .cryptobee{
-        max-width: 500px;
-        height: 525px;
-        padding-top: 72px;
-    }
-    .cryptobee .img-bee {
-        max-width: 182px;
-    }
-    .cryptobee .my-bee-home {
-        font-size: 24px;
-    }
-    .item-about-cryptobee p {
-        font-size: 18px;
-    }
-    .price-bee:before{
-        width: 34px;
-        height: 32px;
-        top: -2px;
-    }
-    .price-bee {
-        padding-left: 43px;
-    }
-    .item-about-cryptobee span {
-        font-size: 20px;
-    }
-    .item-about-cryptobee {
-        margin-bottom: 13px;
-    }
-    .hour-wax:before{
-        width: 32px;
-        height: 30px;
-        top: -3px;
-    }
-    .hour-honey:before{
-        width: 29px;
-        height: 30px;
-        top: -3px;
-    }
-    .cryptobee-btn{
-        width: 239px !important;
-    }
-    .item-about-cryptobee:last-child {
-        margin-bottom: 17px;
-    }
-    .cryptobee .my-bee-home {
-        margin-top: 20px;
-    }
-    .cryptobee .plus {
-        margin: 0 0;
-    }
-    .new-round-modal{
-        max-width: 565px;
-        height: 430px;
-        padding-top: 80px;
-    }
-    .img-reward{
-        align-items: center;
-    }
-    .img-reward img{
-        max-width: 140px;
-        width: 100%;
-        display: block;
-    }
-    .give-medale {
-        font-size: 24px;
-        margin-top: 24px;
-        margin-bottom: 20px;
-    }
-    .title-reward {
-        font-size: 24px;
-        margin-bottom: 25px;
-    }
-    .wrapper-reward span {
-        font-size: 30px;
-    }
-    .wax-reward:before{
-        width: 50px;
-        height: 43px;
-    }
-    .wax-reward {
-        padding-left: 59px;
-    }
-    .honey-reward:before{
-        width: 43px;
-        height: 45px;
-    }
-    .next-medal {
-        font-size: 18px;
-        margin-top: 9px;
-    }
-    .reward-btn {
-        width: 195px;
-        height: 53px;
-        bottom: -11px;
-    }
-    .modal-ok{
-        height: 293px;
-    }
-    .modal-ok .container-modal {
-        min-height: 269px;
-    }
-    .wrapper-ok{
-        max-width: 150px;
-        margin-bottom: 30px;
-    }
-    .wrapper-ok img{
-        width: 100%;
-    }
-    .modal-ok .modal-btn {
-        width: 200px;
-        height: 55px;
-        bottom: -9px;
-        font-size: 21px;
-    }
-
-}
-@media screen and (max-width: 1380px) and (min-width: 1000px){
-    .input-form{
-        max-width: 165px;
-        padding-left: 47px;
-        font-size: 32px;
-    }
-    .wrapper-input{
-        margin-right: 20px;
-    }
-}
-@media screen and (max-width: 1280px) and (min-width: 1000px){
-    .blue-btn,
-    .withdraw-btn{
-        width: 80px;
-    }
 }
