@@ -743,6 +743,12 @@
         top: 16px;
         right: 28px;
     }
+    .drop-honey{
+        margin-bottom: 100px;
+    }
+    .drop-wax{
+        margin-bottom: 55px;
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1000px){
