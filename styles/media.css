@@ -749,6 +749,10 @@
     .drop-wax{
         margin-bottom: 55px;
     }
+    .modernize-btn{
+        width: 200px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1000px){
