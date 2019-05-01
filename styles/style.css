@@ -1417,6 +1417,87 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
     text-align: center;
     z-index: 2;
+    animation: animationFr 60s infinite ease-in-out;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFr 60s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: animationFr 60s infinite ease-in-out;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: animationFr 60s infinite ease-in-out;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: animationFr 60s infinite ease-in-out;
+    -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFr{
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    3% {
+        opacity: 1;
+        transform: translate(0, -65px);
+    }
+    4%, 100% {
+        opacity: 0;
+    }
+
+}
+
+@-moz-keyframes animationFr{
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    3% {
+        opacity: 1;
+        transform: translate(0, -65px);
+    }
+    4%, 100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes animationFr {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    3% {
+        opacity: 1;
+        transform: translate(0, -65px);
+    }
+    4%, 100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes animationFr {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    3% {
+        opacity: 1;
+        transform: translate(0, -65px);
+    }
+    4%, 100% {
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes animationFr {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    3% {
+        opacity: 1;
+        transform: translate(0, -65px);
+    }
+    4%, 100% {
+        opacity: 0;
+    }
 }
 .trx-rounde span{
     font-size: 14px;
