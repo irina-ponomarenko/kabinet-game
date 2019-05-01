@@ -762,6 +762,75 @@
         background-size: contain;
         max-width: 500px;
     }
+    @keyframes animationFr{
+        0% {
+            opacity: 0;
+            transform: translate(0, 0);
+        }
+        3% {
+            opacity: 1;
+            transform: translate(0, -48px);
+        }
+        4%, 100% {
+            opacity: 0;
+        }
+
+    }
+    @-moz-keyframes animationFr{
+        0% {
+            opacity: 0;
+            transform: translate(0, 0);
+        }
+        3% {
+            opacity: 1;
+            transform: translate(0, -48px);
+        }
+        4%, 100% {
+            opacity: 0;
+        }
+    }
+
+    @-webkit-keyframes animationFr {
+        0% {
+            opacity: 0;
+            transform: translate(0, 0);
+        }
+        3% {
+            opacity: 1;
+            transform: translate(0, -48px);
+        }
+        4%, 100% {
+            opacity: 0;
+        }
+    }
+
+    @-o-keyframes animationFr {
+        0% {
+            opacity: 0;
+            transform: translate(0, 0);
+        }
+        3% {
+            opacity: 1;
+            transform: translate(0, -48px);
+        }
+        4%, 100% {
+            opacity: 0;
+        }
+    }
+
+    @-ms-keyframes animationFr {
+        0% {
+            opacity: 0;
+            transform: translate(0, 0);
+        }
+        3% {
+            opacity: 1;
+            transform: translate(0, -48px);
+        }
+        4%, 100% {
+            opacity: 0;
+        }
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1000px){
