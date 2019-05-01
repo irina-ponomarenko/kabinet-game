@@ -507,9 +507,7 @@
         max-width: 446px;
         margin-right: 50px;
     }
-    .info-round{
-        font-size: 16px;
-    }
+
     .title-round{
         font-size: 18px;
     }
@@ -680,11 +678,15 @@
         width: 100%;
     }
     .drop-big span{
-        font-size: 16px;
+        font-size: 20px;
+        margin-top: 12px;
     }
     .text-drop{
         top: 38%;
         max-width: 74px;
+    }
+    .trx-rounde{
+        left: -6px;
     }
     .wrapper-content-round.no-active-round::after{
         left: 36px;
