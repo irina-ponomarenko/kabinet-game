@@ -1431,11 +1431,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @keyframes animationFr{
     0% {
-        opacity: 0;
+        opacity: 1;
         transform: translate(0, 0);
     }
     3% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0, -65px);
     }
     4%, 100% {
@@ -1446,11 +1446,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-moz-keyframes animationFr{
     0% {
-        opacity: 0;
+        opacity: 1;
         transform: translate(0, 0);
     }
     3% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0, -65px);
     }
     4%, 100% {
@@ -1460,11 +1460,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-webkit-keyframes animationFr {
     0% {
-        opacity: 0;
+        opacity: 1;
         transform: translate(0, 0);
     }
     3% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0, -65px);
     }
     4%, 100% {
@@ -1474,11 +1474,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-o-keyframes animationFr {
     0% {
-        opacity: 0;
+        opacity: 1;
         transform: translate(0, 0);
     }
     3% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0, -65px);
     }
     4%, 100% {
@@ -1488,11 +1488,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 @-ms-keyframes animationFr {
     0% {
-        opacity: 0;
+        opacity: 1;
         transform: translate(0, 0);
     }
     3% {
-        opacity: 1;
+        opacity: 0.5;
         transform: translate(0, -65px);
     }
     4%, 100% {

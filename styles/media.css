@@ -764,11 +764,11 @@
     }
     @keyframes animationFr{
         0% {
-            opacity: 0;
+            opacity: 1;
             transform: translate(0, 0);
         }
         3% {
-            opacity: 1;
+            opacity: 0.5;
             transform: translate(0, -48px);
         }
         4%, 100% {
@@ -778,11 +778,11 @@
     }
     @-moz-keyframes animationFr{
         0% {
-            opacity: 0;
+            opacity: 1;
             transform: translate(0, 0);
         }
         3% {
-            opacity: 1;
+            opacity: 0.5;
             transform: translate(0, -48px);
         }
         4%, 100% {
@@ -792,11 +792,11 @@
 
     @-webkit-keyframes animationFr {
         0% {
-            opacity: 0;
+            opacity: 1;
             transform: translate(0, 0);
         }
         3% {
-            opacity: 1;
+            opacity: 0.5;
             transform: translate(0, -48px);
         }
         4%, 100% {
@@ -806,11 +806,11 @@
 
     @-o-keyframes animationFr {
         0% {
-            opacity: 0;
+            opacity: 1;
             transform: translate(0, 0);
         }
         3% {
-            opacity: 1;
+            opacity: 0.5;
             transform: translate(0, -48px);
         }
         4%, 100% {
@@ -820,11 +820,11 @@
 
     @-ms-keyframes animationFr {
         0% {
-            opacity: 0;
+            opacity: 1;
             transform: translate(0, 0);
         }
         3% {
-            opacity: 1;
+            opacity: 0.5;
             transform: translate(0, -48px);
         }
         4%, 100% {
