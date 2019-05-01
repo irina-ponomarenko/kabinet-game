@@ -1872,7 +1872,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
     margin-top: 76px;
     margin-bottom: 34px;
-    min-height: 469px;
+    min-height: 488px;
 }
 .table-modal thead{
     background-color: #fbf3cf;
@@ -1886,7 +1886,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .table-modal thead th,
 .table-modal tbody tr td{
-    padding: 10px 14px;
+    padding: 10px;
     border: 1px solid #f0c67b;
 }
 .table-modal tbody tr td:first-child,
@@ -1911,11 +1911,14 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .table-modal tbody tr td {
     height: 23px;
+    font-weight: bold;
+    color: #000000;
 }
 .table-modal tbody tr td span{
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
+    color: #000000;
 }
 .table-modal thead th{
     padding-top: 17px;
@@ -1941,7 +1944,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .summa{
     position: relative;
-    padding-left: 31px;
+    padding-left: 29px;
+    margin-left: 5px;
 }
 .activ-honey:before{
     content: '';
@@ -2026,8 +2030,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin-right: 9px;
     position: relative;
     width: 50px;
-    padding-left: 25px;
-    padding-right: 8px;
+    padding-left: 20px;
+    padding-right: 0;
 }
 .doxod:before{
     content: '';
@@ -2197,8 +2201,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
      height: 43px;
      padding-top: 7px;
      margin: 0 auto;
-     margin-top: 33px;
-     position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
 }
 .balance-footer-block span{
     font-size: 13px;
@@ -2745,6 +2751,27 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .new-round-modal-2 .title-modal {
     max-width: none;
+}
+.airdrop{
+    height: 400px;
+    padding-top: 94px;
+    background-size: contain;
+    max-width: 500px;
+}
+.airdrop .img-reward{
+    max-width: 130px;
+    height: 114px;
+    align-items: center;
+    margin: 0 auto;
+}
+.airdrop .img-reward img{
+    max-width: 130px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.airdrop .container-modal {
+    min-height: 317px;
 }
 /*--------------------end modal---------------*/
 

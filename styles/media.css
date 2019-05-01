@@ -1,4 +1,4 @@
-@media screen and (max-width: 1535px) and (min-width: 1000px){
+@media screen and (max-width: 1560px) and (min-width: 1000px){
     .input-form{
         max-width: 130px;
         font-size: 25px;
@@ -83,6 +83,7 @@
     }
     .summa{
         padding-left: 25px;
+        margin-left: 0;
     }
     .doxod{
         padding-left: 22px;
@@ -754,6 +755,12 @@
     .modernize-btn{
         width: 200px;
         height: 50px;
+    }
+    .airdrop{
+        height: 400px;
+        padding-top: 94px;
+        background-size: contain;
+        max-width: 500px;
     }
 }
 
