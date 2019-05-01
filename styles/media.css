@@ -15,8 +15,7 @@
     .container-table {
         margin: 0 auto;
         margin-top: 66px;
-        margin-bottom: 24px;
-        min-height: 370px;
+        min-height: 395px;
     }
     .table-modal {
         max-width: 485px;
@@ -31,7 +30,7 @@
         margin-right: 30px;
     }
     .table-modal tbody{
-        max-height: 330px;
+        max-height: 450px;
     }
     .footer-input{
         max-width: 230px;
@@ -80,6 +79,9 @@
         width: 18px;
         height: 20px;
         top: -3px;
+    }
+    .paseca .table-modal tbody {
+        max-height: 354px;
     }
     .summa{
         padding-left: 25px;

@@ -1952,8 +1952,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .container-table{
     margin: 0 auto;
     margin-top: 76px;
-    margin-bottom: 34px;
-    min-height: 488px;
+    min-height: 522px;
 }
 .table-modal thead{
     background-color: #fbf3cf;
@@ -2011,7 +2010,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
 }
 .table-modal tbody{
-    max-height: 430px;
+    max-height: 480px;
     overflow-y: auto;
     display: block;
 }
@@ -2037,6 +2036,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     width: 22px;
     height: 21px;
     top: -3px;
+}
+.paseca .table-modal tbody{
+    max-height: 465px;
 }
 .footer-modal{
     background: linear-gradient(to bottom, rgba(235,146,21,1) 0%, rgba(255,199,59,1) 100%);
