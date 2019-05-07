@@ -1904,9 +1904,11 @@
     }
     .footer-modal-mobile{
         padding-top: 30px;
+        bottom: 40px;
     }
     .active-mobile-menu .wrapper-mobile-menu{
-        max-height: calc(100vh - 125px);
+        max-height: calc(100vh - 91px);
     }
+
 
 }
