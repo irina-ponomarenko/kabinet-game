@@ -1875,5 +1875,8 @@
     .header{
         min-height: 227px;
     }
+    .item-footer-top-list p {
+        font-size: 18px;
+    }
 
 }
