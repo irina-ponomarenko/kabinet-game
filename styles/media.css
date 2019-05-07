@@ -1878,5 +1878,32 @@
     .item-footer-top-list p {
         font-size: 18px;
     }
+    .title-header-mobile{
+        margin-left: 89px;
+        margin-top: 7px;
+    }
+    .header-mobile .drop-down-lg {
+        margin-right: 88px;
+        margin-top: 16px;
+    }
+    .header-mobile .close-modal {
+        right: 14px;
+        top: 11px;
+        width: 54px;
+        height: 54px;
+    }
+    .header-section{
+        max-width: 320px;
+        padding: 5px;
+    }
+    .name-title{
+        padding: 7px 10px;
+    }
+    .name-title h1 {
+        font-size: 24px;
+    }
+    .footer-modal-mobile{
+        padding-top: 30px;
+    }
 
 }
