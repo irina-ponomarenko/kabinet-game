@@ -1245,6 +1245,9 @@
     .modernize .balance-footer-block {
         bottom: 30px;
     }
+    .cryptobee .balance-footer-block {
+        bottom: 27px;
+    }
 
 
     .btn-back-mobile-wrapper{
