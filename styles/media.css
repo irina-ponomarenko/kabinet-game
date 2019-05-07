@@ -845,7 +845,7 @@
     .wrapper-modal{
         max-width: 100%;
         width: 100%;
-        height: calc(100vh - 62px);
+        height: 95vh;
         background: none;
         background-color: #ffffe2;
     }
