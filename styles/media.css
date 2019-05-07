@@ -1513,6 +1513,9 @@
     .mobile-upgrade{
         display: flex;
     }
+    .active-mobile-menu .btn-back-mobile-wrapper{
+        position: fixed;
+    }
 }
 @media screen and (max-width: 360px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -1904,11 +1907,19 @@
     }
     .footer-modal-mobile{
         padding-top: 30px;
-        bottom: 40px;
     }
     .active-mobile-menu .wrapper-mobile-menu{
-        max-height: calc(100vh - 91px);
+        max-height: 100vh;
     }
-
+    .active-mobile-menu .header-mobile{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+    }
+    .list-button-menu{
+        margin-top: 82px;
+    }
 
 }
