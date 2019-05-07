@@ -1909,7 +1909,7 @@
         padding-top: 30px;
     }
     .active-mobile-menu .wrapper-mobile-menu{
-        max-height: 100vh;
+        max-height: calc(100vh + 60px);
     }
     .active-mobile-menu .header-mobile{
         position: fixed;
