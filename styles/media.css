@@ -842,6 +842,60 @@
     }
 }
 @media screen and (max-width: 720px) and (min-width: 320px){
+    .wrapper-modal{
+        max-width: 100%;
+        width: 100%;
+        height: 100vh;
+        background: none;
+        background-color: #ffffe2;
+    }
+    .header-modal{
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        border-radius: 0;
+        border: none;
+        background: linear-gradient(to bottom, rgba(240,121,2,1) 0%, rgba(230,97,2,1) 100%);
+    }
+    .title-modal{
+        background: transparent;
+        align-items: center;
+        max-width: none;
+        justify-content: flex-start;
+    }
+    .close-modal {
+        width: 30px;
+        height: 30px;
+    }
+    .flythat .flythat-close{
+        top: 10px;
+        right: 17px;
+    }
+    .container-table{
+        margin-top: 25px;
+        min-height: auto;
+        max-height: 50vh;
+    }
+    .footer-modal {
+        position: fixed;
+        bottom: 0;
+        border-radius: 0;
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+    .paseca .table-modal tbody {
+        max-height: 100vh;
+    }
+    .table-modal tbody tr td{
+        height: 16px;
+    }
+    .table-modal thead th, .table-modal tbody tr td{
+        padding: 8px;
+    }
+    .table-modal tbody {
+        max-height: 55vh;
+    }
     .left-block,
     .right-block{
         display: none !important;
@@ -892,6 +946,307 @@
         background-position: center;
         background-size: contain;
     }
+    .new-round-modal .header-modal {
+        max-width: 100%;
+    }
+    .airdrop .container-modal {
+        min-height: auto;
+    }
+    .airdrop{
+        padding-top: 0;
+    }
+    .airdrop .img-reward{
+        margin-top: 94px;
+    }
+    .pay-bee .container-modal {
+        padding-top: 0;
+    }
+    .header-modal{
+        box-shadow: none;
+    }
+    .about-bee{
+        margin-top: 20px;
+        line-height: 17px;
+    }
+    .img-bee{
+        align-items: center;
+    }
+    .flythat img {
+        max-width: 115px;
+    }
+    .my-bee-home, .my-bee-home span{
+        font-size: 18px;
+    }
+    .my-bee-home {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .green-bee-btn {
+        width: 238px;
+        height: 40px;
+        font-size: 16px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .green-bee-btn:after{
+        border-radius: 10px;
+    }
+    .about-bee{
+        font-size: 14px;
+    }
+    .wrapper-bottom-footer-modal{
+        bottom: 0;
+        max-width: 250px;
+        padding: 3px;
+    }
+    .container-pay-bee{
+        padding: 5px 7px;
+        max-width: 100%;
+    }
+    .summa-dohod img{
+        max-width: 20px;
+    }
+    .all-dohod{
+        font-size: 20px;
+    }
+    .cryptobee{
+        padding-top: 0;
+    }
+    .cryptobee .header-modal{
+        max-width: 100%;
+    }
+    .cryptobee .my-bee-home {
+        font-size: 20px;
+    }
+    .price-bee:before{
+        width: 31px;
+        height: 29px;
+    }
+    .item-about-cryptobee p {
+        font-size: 16px;
+    }
+    .item-about-cryptobee span {
+        font-size: 20px;
+    }
+    .price-bee {
+        padding-left: 37px;
+        position: relative;
+    }
+    .item-about-cryptobee {
+        margin-bottom: 10px;
+    }
+    .hour-wax:before{
+        width: 30px;
+        height: 30px;
+    }
+    .hour-honey:before{
+        width: 27px;
+        height: 29px;
+    }
+    .hour-honey{
+        padding-left: 30px;
+    }
+    .plus {
+        margin: 0 2px;
+    }
+    .item-about-cryptobee:last-child {
+        margin-bottom: 15px;
+    }
+    .more-resourse .title-modal{
+        max-width: 100%;
+        background: transparent;
+    }
+    .more-resourse .img-bee{
+        margin-top: 60px;
+    }
+    .pay-bee-more .img-bee{
+        margin-top: 20px;
+    }
+    .pay-bee-more img {
+        max-width: 136px;
+    }
+    .more-resourse img {
+        max-width: 134px;
+    }
+    .pay-bee .title-modal h2 {
+        font-size: 20px;
+    }
+    .summa-dohod img{
+        max-width: 30px;
+    }
+    .pay-bee-more .balance-footer-block {
+        bottom: 28px;
+    }
+    .pay-bee .balance-footer-block {
+        bottom: 30px;
+    }
+    .buy-wax {
+        padding-top: 0;
+    }
+    .pay-wax{
+        margin-top: 20px;
+    }
+    .puy-wax .pay-wax {
+        max-width: 327px;
+        margin-bottom: 50px;
+    }
+    .center-change, .center-change span{
+        font-size: 30px;
+    }
+    .center-change{
+        margin-bottom: 30px;
+    }
+    .buy-input {
+        background-color: #f8f3d9;
+        border: 2px solid #e38d11;
+        border-radius: 10px;
+        max-width: 300px;
+        width: 100%;
+        height: 40px;
+        padding: 0 10px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #7b3701;
+    }
+    .puy-wax .wrapper-bottom-footer-modal {
+        bottom: 0;
+    }
+    .error-honey{
+        font-size: 18px;
+    }
+    .pay-wax {
+        text-align: center;
+        font-size: 14px;
+    }
+    .title-modal h2{
+        font-size: 24px;
+    }
+    .modernize .title-modal {
+        max-width: 100%;
+    }
+    .modernize .header-modal {
+        max-width: 100%;
+    }
+    .percent-status span {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .percent-status {
+        font-size: 22px;
+    }
+    .modernize-btn {
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: bold;
+        height: 40px;
+        position: relative;
+        border-radius: 10px;
+    }
+    .modernize-btn:after{
+        border-radius: 10px;
+    }
+    .margin-bottom {
+        margin-bottom: 20px;
+    }
+    .modernize .pay-wax {
+        max-width: 327px;
+        margin-bottom: 40px;
+    }
+    .modernize .balance-footer-block {
+        bottom: 30px;
+    }
+    .modernize .title-modal h2 {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .new-round-modal-2{
+        padding-top: 0;
+    }
+    .new-round-modal-2 .header-modal {
+        max-width: 100%;
+    }
+    .img-reward {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .give-medale{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .title-reward {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    .wrapper-reward span {
+        font-size: 28px;
+    }
+    .wax-reward:before{
+        width: 50px;
+        height: 42px;
+    }
+    .wax-reward {
+        padding-left: 61px;
+    }
+    .honey-reward:before{
+        width: 43px;
+        height: 42px;
+    }
+    .honey-reward {
+        padding-left: 53px;
+        position: relative;
+    }
+    .next-medal {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .next-reward span {
+        font-size: 22px;
+    }
+    .next-reward .wax-reward {
+        padding-left: 35px;
+    }
+    .next-reward .wax-reward:before {
+        width: 31px;
+        height: 25px;
+        top: -2px;
+    }
+    .next-reward .honey-reward:before {
+        width: 25px;
+        height: 26px;
+        top: -2px;
+    }
+    .reward-btn {
+        width: 212px;
+        height: 45px;
+        bottom: 0;
+    }
+    .modal-ok .header-modal {
+        max-width: 100%;
+    }
+    .modal-ok{
+        padding-top: 0;
+    }
+    .wrapper-ok{
+        margin-top: 40px;
+    }
+    .wrapper-ok img {
+        max-width: 165px;
+    }
+    .buy-wax .balance-footer-block {
+        bottom: 29px;
+    }
+    .puy-wax .balance-footer-block {
+        bottom: 23px;
+    }
+    .modernize .balance-footer-block {
+        bottom: 30px;
+    }
+
+
     .btn-back-mobile-wrapper{
         background-color: #c45f00;
         z-index: 20000;
@@ -907,6 +1262,12 @@
     }
     .medal-after{
         right: -11px;
+    }
+    .balance-footer-block span{
+        font-size: 11px;
+    }
+    .balance-footer-block{
+        bottom: 23px;
     }
     .title-header-mobile{
        font-size: 30px;
@@ -1192,7 +1553,7 @@
        max-width: 453px;
        height: 120px;
        background-position: center;
-        margin-top: -5px;
+        margin-top: 26px;
     }
     .list-game-rounds{
         max-width: 720px;
@@ -1518,6 +1879,9 @@
     .active-mobile-menu .btn-back-mobile-wrapper{
         position: fixed;
     }
+    .container-list-statistic{
+        margin-bottom: 126px;
+    }
 }
 @media screen and (max-width: 360px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -1716,6 +2080,7 @@
     .sotu-container {
         max-width: 304px;
         height: 85px;
+        margin-top: -5px;
     }
     .hexagon {
         height: 27px;
@@ -1922,6 +2287,136 @@
     }
     .list-button-menu{
         margin-top: 82px;
+    }
+    .table-modal{
+        max-width: 340px;
+    }
+    .table-modal tbody tr td span{
+        font-size: 11px;
+    }
+    .activ-honey:before{
+        width: 14px;
+        height: 13px;
+        left: 0;
+    }
+    .doxod:before{
+        width: 14px;
+        height: 13px;
+    }
+    .doxod{
+        padding-right: 0;
+        padding-left: 12px;
+    }
+    .summa{
+        padding-left: 21px;
+    }
+    .table-modal thead th:last-child {
+        width: 30%;
+    }
+    .table-modal tbody tr td:last-child {
+        width: 30%;
+    }
+    .footer-input{
+        max-width: 162px;
+        border-radius: 10px;
+    }
+    .footer-input:first-child {
+        margin-right: 10px;
+    }
+    .footer-input span{
+        font-size: 16px;
+    }
+    .footer-input h3 {
+        font-size: 11px;
+    }
+    .table-modal tbody {
+        max-height: 55vh;
+    }
+    .table-modal thead th, .table-modal tbody tr td {
+        padding: 5px 3px;
+    }
+    .uley-input span {
+        position: absolute;
+        right: 36px;
+        top: 16px;
+        font-size: 18px;
+    }
+    .medal-input{
+        width: 54px;
+        height: 54px;
+        top: -3px;
+    }
+    .medal-input img{
+        width: 100%;
+    }
+    .uley-input{
+        max-width: 230px;
+        height: 47px;
+    }
+    .uley-input h3 {
+        margin-left: 10px;
+        color: #ffffff;
+        font-size: 13px;
+    }
+    .nuber-position:before{
+        width: 30px;
+        height: 30px;
+    }
+    .nuber-position{
+        padding-right: 30px;
+    }
+    .container-list-statistic{
+        margin-bottom: 66px;
+    }
+    .about-bee {
+        font-size: 13px;
+        max-width: 340px;
+    }
+    .item-about-cryptobee p {
+        font-size: 14px;
+    }
+    .price-bee:before {
+        width: 25px;
+        height: 24px;
+    }
+    .item-about-cryptobee span {
+        font-size: 18px;
+    }
+    .hour-wax:before {
+        width: 25px;
+        height: 25px;
+    }
+    .hour-honey:before {
+        width: 22px;
+        height: 23px;
+    }
+    .cryptobee .header-modal .title-modal h2 {
+        font-size: 20px;
+    }
+    .more-nead p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #f24f1e;
+        margin-right: 16px;
+    }
+    .more-nead span {
+        font-size: 30px;
+        font-weight: bold;
+        color: #f24f1e;
+        padding-left: 45px;
+    }
+    .more-many::before{
+        width: 30px;
+        height: 30px;
+    }
+    .more-nead{
+        margin-bottom: 20px;
+    }
+    .pay-wax{
+        font-size: 13px;
+    }
+    .next-medal{
+        text-align: center;
     }
 
 }
