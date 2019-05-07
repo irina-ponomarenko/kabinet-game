@@ -2250,7 +2250,7 @@
     }
     .title-header-mobile{
         margin-left: 89px;
-        margin-top: 11px;
+        margin-top: 17px;
     }
     .header-mobile .drop-down-lg {
         margin-right: 88px;
@@ -2417,6 +2417,9 @@
     }
     .next-medal{
         text-align: center;
+    }
+    .btn-menu{
+        height: 46px;
     }
 
 }
