@@ -56,4 +56,16 @@ $(document).ready(function () {
     $("#modal-text13").flythat({
         fadeIn: 'slow'
     });
+
+
+    $(".btn-menu").click(function() {
+
+        $(".mobile-menu").toggleClass("active-mobile-menu");
+    });
+    $(".close-btn-mobile").click(function() {
+        $(".mobile-menu").removeClass("active-mobile-menu");
+    });
+      $(".close-mobile").click(function() {
+        $(".mobile-menu").removeClass("active-mobile-menu");
+    });
 });

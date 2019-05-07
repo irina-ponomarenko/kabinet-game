@@ -1508,6 +1508,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .active-trx span{
     display: block;
+    position: relative;
+    left: 0;
 }
 .active-trx-opacity{
      position: absolute;
@@ -1773,6 +1775,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+.mobile-footer-btn{
+    display: none;
 }
 .bottom-footer-content{
     display: flex;
@@ -2896,4 +2901,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     top: 10%;
     color: red;
     z-index: 100000000000;
+}
+.mobile-menu,
+.mobile-upgrade{
+    display: none;
 }
