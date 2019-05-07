@@ -1014,8 +1014,10 @@
         display: flex;
         justify-content: center;
         border-top: 4px solid #dcdfe1;
-        position: sticky;
+        position: fixed;
         bottom: 0;
+        left: 0;
+        right: 0;
     }
     .close-mobile{
         width: 300px;
@@ -1909,7 +1911,7 @@
         padding-top: 30px;
     }
     .active-mobile-menu .wrapper-mobile-menu{
-        max-height: calc(100vh + 60px);
+        max-height: calc(100vh - 91px);
     }
     .active-mobile-menu .header-mobile{
         position: fixed;
