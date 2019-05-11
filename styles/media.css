@@ -2835,6 +2835,9 @@
     .wrapper-modal{
         height: 85vh;
     }
+    .cryptobee{
+        height: 90vh;
+    }
 
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
@@ -2901,9 +2904,6 @@
     }
     .header-round {
         top: -78px;
-    }
-    .cryptobee{
-        height: 90vh;
     }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
