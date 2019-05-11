@@ -1,4 +1,4 @@
-@media screen and (max-width: 1560px) and (min-width: 1000px){
+@media screen and (max-width: 1560px) and (min-width: 1024px){
     .input-form{
         max-width: 130px;
         font-size: 25px;
@@ -717,7 +717,7 @@
         height: 92%;
     }
 
-{}   .wrapper-footer-content{
+    .wrapper-footer-content{
         padding: 9px 0 32px 0;
     }
     .item-footer-top-list p{
@@ -835,13 +835,13 @@
     }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1000px){
+@media screen and (max-width: 1280px) and (min-width: 1024px){
     .blue-btn,
     .withdraw-btn{
         width: 80px;
     }
 }
-@media screen and (max-width: 780px) and (min-width: 320px){
+@media screen and (max-width: 1000px) and (min-width: 320px){
     .wrapper-modal{
         max-width: 100%;
         width: 100%;
@@ -902,6 +902,7 @@
     }
     .center-block{
         background: none;
+        margin: 0 auto;
     }
     .header{
         min-height: 251px;
@@ -912,8 +913,8 @@
         display: none;
     }
     .top-progress{
-        max-width: 521px;
-        margin-left: 120px;
+        max-width: 600px;
+        margin-left: 144px;
     }
     .container-bottom-input{
         flex-direction: column;
@@ -1439,12 +1440,22 @@
         margin-right: 20px;
      }
      .pipes{
-        max-width: 521px;
+        max-width: 665px;
      }
      .trumpet-top{
-        width: 93%;
-       background-position: left 18px top;
+        width: 96%;
+         background-position: left 22px top;
+         background-size: cover;
+         height: 30px;
      }
+    .trumpet-honey{
+        height: 116px;
+        background-size: contain;
+        right: -4px;
+    }
+    .trumpet-wax{
+        left: 0;
+    }
     .bg-body::before,
     .bg-body::after{
         display: none;
@@ -1457,7 +1468,7 @@
         position: absolute;
         z-index: 100;
         left: 50%;
-        top: -20px;
+        top: -22px;
         transform: translateX(-50%);
     }
      .mobile-upgrade .upgrade-btn{
@@ -1468,10 +1479,10 @@
         width: 100%; 
      }
      .wrapper-active{
-        left: 176px;
+         left: 246px;
      }
      .wrapper-active-honey{
-        right: -68px;
+         right: -70px;
      }
      .mechanism{
         min-height: auto;
@@ -1479,6 +1490,7 @@
      }
      .mehanizm-container{
         bottom: 29px;
+         left: 11%;
      }
      .drop-honey{
         width: 28px;
@@ -1491,7 +1503,7 @@
         margin-bottom: 69px;
      }
      .game-rounds::before{
-        background-position: 15.1% 100%;
+         background-position: 2.2% 100%;
      }
      .item-rounds:nth-child(2n+1),
      .item-rounds:nth-child(2n){
@@ -1509,8 +1521,15 @@
         background-size: contain;
      }
      .list-game-rounds{
-        margin-left: 0;
+        margin-left: -55px;
      }
+    .game-rounds{
+        max-width: 665px;
+        margin: 0 auto;
+    }
+    .window{
+        left: 14px;
+    }
      .header-round{
         flex-direction: column;
         align-items: flex-start;
@@ -1518,7 +1537,7 @@
         border: none;
         background: transparent;
         box-shadow: none;
-        top: -71px;
+        top: -58px;
         margin-right: 49px;
      }
      .text-info-round{
@@ -1630,47 +1649,47 @@
     }
     .hexagon-15 {
         top: 59px;
-        right: 23px;
-    }
-    .hexagon-16 {
-        top: 59px;
         left: 84px;
     }
-    .hexagon-17 {
+    .hexagon-16 {
         top: 41px;
         left: 115px;
     }
-    .hexagon-18 {
+    .hexagon-17 {
         top: 59px;
         left: 147px;
     }
-    .hexagon-19 {
+    .hexagon-18 {
         top: 41px;
         left: 178px;
     }
-    .hexagon-20 {
+    .hexagon-19 {
         top: 59px;
         left: 210px;
     }
-    .hexagon-21 {
+    .hexagon-20 {
         top: 41px;
-        left: 241px;
+        left: 240px;
     }
-    .hexagon-22 {
+    .hexagon-21 {
         top: 59px;
         left: 272px;
     }
-    .hexagon-23 {
+    .hexagon-22 {
         top: 41px;
-        left: 304px;
+        left: 303px;
+    }
+    .hexagon-23 {
+        top: 59px;
+        left: 334px;
     }
     .hexagon-24 {
-        top: 59px;
-        right: 86px;
-    }
-    .hexagon-25 {
         top: 41px;
         right: 55px;
+    }
+    .hexagon-25 {
+        top: 59px;
+        right: 22px;
     }
     .hexagon-26 {
         top: 23px;
@@ -1870,6 +1889,7 @@
     }
     .input-form{
         font-size: 30px;
+        max-width: 100%;
     }
 
     .hexagon::after{
@@ -1885,14 +1905,396 @@
     .container-list-statistic{
         margin-bottom: 126px;
     }
+    .trumpet-left{
+        background-position: left 10px top;
+        top: -5px;
+    }
 }
-@media screen and (max-width: 360px) and (min-width: 320px){
+@media screen and (max-width: 1024px) and (min-width: 997px) {
+    .top-progress{
+        max-width: 411px;
+    }
+    .input-form {
+        max-width: 95px;
+        font-size: 20px;
+        padding-left: 37px;
+    }
+    .wrapper-input {
+        margin-right: 15px;
+    }
+    .wax {
+        background-size: 34px 27px;
+    }
+    .honey {
+        background-size: 26px 26px;
+    }
+    .blue-btn, .withdraw-btn {
+        width: 61px;
+        font-size: 11px;
+    }
+    .input-form {
+        max-width: 75px;
+        font-size: 18px;
+    }
+    .bottom-footer-content{
+        justify-content: space-around;
+    }
+    .wrapper-top-footer-logo{
+        max-width: 121px;
+    }
+    .top-footer-content{
+        justify-content: space-around;
+    }
+    .center-block {
+        width: 483px;
+    }
+
+}
+@media screen and (max-width: 998px) and (min-width: 320px) {
+    .header-round{
+        top: -71px;
+    }
+
+}
+@media screen and (max-width: 950px) and (min-width: 320px) {
+    .trumpet-left {
+        background-position: left 31px top;
+        top: -5px;
+    }
+
+    .game-rounds::before {
+        background-position: 5.5% 100%;
+    }
+    .window {
+        left: 35px;
+    }
+    .list-game-rounds {
+        margin-left: -31px;
+    }
+    .trumpet-top{
+        background-position: left 41px top;
+    }
+}
+@media screen and (max-width: 915px) and (min-width: 320px) {
+    .mehanizm-container{
+        left: 9%;
+    }
+
+}
+@media screen and (max-width: 865px) and (min-width: 320px) {
+    .mehanizm-container {
+        bottom: 29px;
+        left: 7%;
+    }
+    .top-progress {
+        max-width: 598px;
+        margin-left: 111px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+    .top-progress {
+        max-width: 521px;
+        margin-left: 120px;
+    }
+    .pipes{
+        max-width: 521px;
+    }
+    .game-rounds::before{
+        background-position: 15.1% 100%;
+    }
+    .trumpet-top{
+        width: 93%;
+        background-position: left 18px top;
+    }
+    .top-progress {
+        max-width: 544px;
+        margin-left: 121px;
+    }
+    .wrapper-input{
+        max-width: 622px;
+    }
+    .trumpet-left {
+        background-position: left 8px top;
+        top: -5px;
+    }
+    .game-rounds::before {
+        background-position: 13.3% 100%;
+    }
+
+    .window {
+        left: 84px;
+    }
+    .list-game-rounds {
+        margin-left: 0;
+    }
+    .wrapper-active {
+        left: 176px;
+    }
+}
+@media screen and (max-width: 720px) and (min-width: 320px) {
+    .mehanizm-container {
+        bottom: 29px;
+        left: 5%;
+    }
+    .trumpet-wax {
+        left: 0;
+        background-size: contain;
+        height: 112px;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 320px){
+    .mehanizm-container {
+        bottom: 29px;
+        left: 4%;
+    }
+    .wrapper-input {
+        max-width: 600px;
+    }
+    .top-progress {
+        max-width: 506px;
+        margin-left: 121px;
+    }
+}
+@media screen and (max-width: 685px) and (min-width: 320px){
+    .mehanizm-container {
+        bottom: 29px;
+        left: 3%;
+    }
+    .wrapper-input {
+        max-width: 560px;
+    }
+    .top-progress {
+        max-width: 473px;
+        margin-left: 121px;
+    }
+}
+@media screen and (max-width: 665px) and (min-width: 320px){
+    .header{
+        padding: 0 40px;
+    }
+    .btn-back-mobile-wrapper{
+        left: 40px;
+    }
+    .top-progress {
+        max-width: 484px;
+        margin-left: 90px;
+    }
+    .wrapper-input {
+        max-width: 100%;
+    }
+    .mehanizm-container {
+        left: 3%;
+        bottom: 6px;
+    }
+    .mehanizm-container{
+        max-width: 160px;
+        background-size: contain;
+    }
+    .active-bank img {
+        max-width: 150px;
+        width: 100%;
+    }
+    .pipes{
+        min-height: 452px;
+    }
+    .wrapper-active-honey {
+        right: -56px;
+        bottom: 23px;
+    }
+    .wrapper-active {
+        left: 186px;
+        bottom: 23px;
+    }
+    .mechanism{
+        background-position: 100% 93%;
+    }
+}
+@media screen and (max-width: 645px) and (min-width: 320px){
+    .mehanizm-container {
+        left: 1%;
+        bottom: 6px;
+    }
+    .active-bank img {
+        max-width: 130px;
+        width: 100%;
+    }
+    .wrapper-active {
+        left: 194px;
+    }
+    .wrapper-active-honey {
+        right: -45px;
+    }
+
+    .game-rounds::before {
+        background-position: 12.3% 100%;
+    }
+    .window {
+        left: 75px;
+    }
+    .mechanism {
+        margin-top: 170px;
+    }
+    .wax-and-honey-in-time {
+        top: -123px;
+    }
+    .header {
+        padding: 0 20px;
+    }
+    .btn-back-mobile-wrapper {
+        left: 20px;
+    }
+    .top-progress {
+        max-width: 498px;
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 625px) and (min-width: 320px){
+    .top-progress {
+        max-width: 492px;
+        margin-left: 78px;
+    }
+    .mehanizm-container {
+        left: 0;
+        bottom: 6px;
+    }
+
+}
+@media screen and (max-width: 610px) and (min-width: 320px){
+    .mehanizm-container {
+        max-width: 140px;
+        background-size: contain;
+        bottom: 0;
+        height: 313px;
+    }
+    .game-rounds::before {
+        background-position: 9.5% 100%;
+    }
+    .window {
+        left: 54px;
+    }
+    .trumpet-honey {
+        right: 0;
+    }
+    .wrapper-active-honey {
+        right: -23px;
+    }
+    .pipes {
+        min-height: 422px;
+    }
+    .text-block-upgrade{
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .upgrade {
+        width: 90px;
+        top: 73px;
+    }
+    .mobile-upgrade .upgrade-btn {
+        width: 250px;
+    }
+    .trumpet-honey {
+        right: 18px;
+    }
+    .trumpet-top {
+        width: 89%;
+    }
+    .top-progress {
+        max-width: 483px;
+        margin-left: 78px;
+    }
+
+}
+@media screen and (max-width: 600px) and (min-width: 320px){
+    .wrapper-input {
+        max-width: 90%;
+    }
+    .input-form {
+        font-size: 28px;
+        max-width: 70%;
+    }
+    .top-progress {
+        max-width: 448px;
+        margin-left: 78px;
+    }
+
+}
+@media screen and (max-width: 565px) and (min-width: 320px){
+    .top-progress {
+        max-width: 431px;
+        margin-left: 78px;
+    }
+    .wrapper-active-honey {
+        right: 0;
+    }
+    .mobile-upgrade{
+        left: 49%;
+    }
+    .trumpet-top {
+        width: 87%;
+    }
+    .trumpet-honey {
+        right: 40px;
+    }
+    .trumpet-wax {
+        left: -4px;
+    }
+    .mehanizm-container {
+        max-width: 131px;
+        background-size: contain;
+        bottom: 0;
+        height: 293px;
+    }
+    .active-bank img {
+        max-width: 121px;
+        width: 100%;
+    }
+    .wrapper-active-honey {
+        overflow: hidden;
+    }
+    .wrapper-active {
+        left: 196px;
+        overflow: hidden;
+    }
+    .center-block{
+        max-width: 521px;
+    }
+    .top-progress {
+        max-width: 393px;
+        margin-left: 96px;
+    }
+    .btn-back-mobile-wrapper {
+        left: 40px;
+    }
+
+}
+@media screen and (max-width: 540px) and (min-width: 320px){
+    .top-progress {
+        max-width: 382px;
+        margin-left: 100px;
+    }
+    .trumpet-left {
+        background-position: left 33px top;
+        top: -5px;
+    }
+    .trumpet-top {
+        background-position: left 43px top;
+    }
+    .window {
+        left: 48px;
+    }
+    .wrapper-content-round::before{
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
         left: 20px;
     }
     .top-progress{
         margin-left: 77px;
-        max-width: 234px;
+        max-width: 285px;
         height: 25px;
     }
     .medal-after{
@@ -1902,7 +2304,7 @@
         height: 54px;
     }
     .wrapper-input{
-        max-width: 312px;
+        max-width: 366px;
     }
     .input-form{
         max-width: 164px;
@@ -1938,11 +2340,11 @@
     }
     .trumpet-top {
         width: 86%;
-        background-position: left 51px top;
+        background-position: left 28px top;
         height: 28px;
     }
     .trumpet-left{
-        background-position: left 44px top;
+        background-position: left 21px top;
         height: 448px;
         width: 80px;
         background-size: contain;
@@ -1966,10 +2368,10 @@
         top: 0;
         width: 45px;
         background-size: contain;
-        left: 48%;
+        left: 45%;
     }
     .mobile-upgrade{
-        left: 54%;
+        left: 51%;
     }
     .text-block-upgrade{
         background-color: rgba(147,147,147, 0.5);
@@ -1983,7 +2385,7 @@
         width: 81px;
         margin: 0 auto;
         position: absolute;
-        top: 103px;
+        top: 80px;
         left: 0;
         right: 0;
     }
@@ -2000,7 +2402,7 @@
         width: 100%;
     }
     .wrapper-active{
-        left: 140px;
+        left: 128px;
         height: 225px;
         bottom: 26px;
         overflow: hidden;
@@ -2059,7 +2461,7 @@
     }
     .drop-big {
         width: 52px;
-        bottom: -17px;
+        bottom: -2px;
         height: 79px;
     }
     .text-drop {
@@ -2068,9 +2470,9 @@
         transform: translateY(-53%);
     }
     .wrapper-content-round.no-active-round::after {
-        left: 13px;
-        right: 11px;
-        top: 16px;
+        left: 17px;
+        right: 13px;
+        top: -16px;
         bottom: -29px;
         border-radius: 13px;
     }
@@ -2083,7 +2485,7 @@
     .sotu-container {
         max-width: 304px;
         height: 85px;
-        margin-top: -5px;
+        margin-top: -14px;
     }
     .hexagon {
         height: 27px;
@@ -2152,48 +2554,48 @@
         top: 30px;
     }
     .hexagon-15 {
-        top: 42px;
-        right: 8px;
+        top: 30px;
+        left: 74px;
     }
     .hexagon-16 {
         top: 42px;
         left: 52px;
     }
     .hexagon-17 {
-        top: 30px;
-        left: 74px;
-    }
-    .hexagon-18 {
         top: 42px;
         left: 96px;
     }
-    .hexagon-19 {
+    .hexagon-18 {
         top: 30px;
         left: 118px;
     }
-    .hexagon-20 {
+    .hexagon-19 {
         top: 42px;
         left: 141px;
     }
-    .hexagon-21 {
+    .hexagon-20 {
         top: 30px;
         left: 163px;
     }
-    .hexagon-22 {
+    .hexagon-21 {
         top: 42px;
         left: 185px;
     }
-    .hexagon-23 {
+    .hexagon-22 {
         top: 30px;
         left: 207px;
     }
-    .hexagon-24 {
+    .hexagon-23 {
         top: 42px;
-        right: 52px;
+        left: 228px;
     }
-    .hexagon-25 {
+    .hexagon-24 {
         top: 30px;
         right: 30px;
+    }
+    .hexagon-25 {
+        top: 42px;
+        right: 8px;
     }
     .hexagon-26 {
         top: 17px;
@@ -2424,5 +2826,82 @@
     .btn-menu{
         height: 46px;
     }
+    .header-round {
+        top: -90px;
+    }
+    .container-list-footer{
+        padding: 0;
+    }
 
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    .trumpet-left{
+        background-position: left 44px top;
+    }
+    .trumpet-top {
+        width: 86%;
+        background-position: left 51px top;
+        height: 28px;
+    }
+    .trumpet-wax{
+        height: 105px;
+        position: absolute;
+        top: 0;
+        width: 45px;
+        background-size: contain;
+        left: 48%;
+    }
+    .mobile-upgrade{
+        left: 54%;
+    }
+    .wrapper-active{
+        left: 140px;
+        height: 225px;
+        bottom: 26px;
+        overflow: hidden;
+    }
+    .upgrade {
+        width: 81px;
+        margin: 0 auto;
+        position: absolute;
+        top: 103px;
+        left: 0;
+        right: 0;
+    }
+    .top-progress{
+        margin-left: 77px;
+        max-width: 234px;
+        height: 25px;
+    }
+    .wrapper-input{
+        max-width: 312px;
+    }
+    .wrapper-content-round.no-active-round::after {
+        left: 13px;
+        right: 11px;
+        top: 16px;
+        bottom: -29px;
+        border-radius: 13px;
+    }
+    .sotu-container {
+        max-width: 304px;
+        height: 85px;
+        margin-top: -5px;
+    }
+    .drop-big {
+        width: 52px;
+        bottom: -17px;
+        height: 79px;
+    }
+    .trumpet-left {
+        background-position: left 34px top;
+    }
+    .header-round {
+        top: -78px;
+    }
+}
+@media screen and (max-width: 360px) and (min-width: 320px) {
+    .header-round {
+        top: -71px;
+    }
 }
