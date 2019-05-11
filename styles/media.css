@@ -2833,7 +2833,7 @@
         padding: 0;
     }
     .wrapper-modal{
-        height: 75vh;
+        height: 80vh;
     }
 
 }
@@ -2903,7 +2903,7 @@
         top: -78px;
     }
     .cryptobee{
-        height: 85vh;
+        height: 90vh;
     }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
