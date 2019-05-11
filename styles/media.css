@@ -1558,6 +1558,7 @@
     }
     .item-rounds{
         max-width: 540px;
+        width: 95%;
         height: 222px;
         background-size: contain;
         padding-top: 100px;
@@ -2837,6 +2838,9 @@
     }
     .cryptobee{
         height: 90vh;
+    }
+    .container-bottom-input{
+        margin-top: 30px;
     }
 
 }
