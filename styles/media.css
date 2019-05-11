@@ -2473,7 +2473,7 @@
     .wrapper-content-round.no-active-round::after {
         left: 17px;
         right: 13px;
-        top: -16px;
+        top: -5px;
         bottom: -29px;
         border-radius: 13px;
     }
