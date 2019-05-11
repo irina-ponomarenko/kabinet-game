@@ -973,7 +973,7 @@
         align-items: center;
     }
     .flythat img {
-        max-width: 115px;
+        max-width: 140px;
     }
     .my-bee-home, .my-bee-home span{
         font-size: 18px;
@@ -2832,6 +2832,9 @@
     .container-list-footer{
         padding: 0;
     }
+    .wrapper-modal{
+        height: 75vh;
+    }
 
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
@@ -2898,6 +2901,9 @@
     }
     .header-round {
         top: -78px;
+    }
+    .cryptobee{
+        height: 85vh;
     }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
