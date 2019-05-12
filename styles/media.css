@@ -845,7 +845,7 @@
     .wrapper-modal{
         max-width: 100%;
         width: 100%;
-        height: 95vh;
+        height: 100vh;
         background: none;
         background-color: #ffffe2;
     }
@@ -2864,10 +2864,10 @@
         padding: 0;
     }
     .wrapper-modal{
-        height: 87vh;
+        height: 100vh;
     }
     .cryptobee{
-        height: 92vh;
+        height: 100vh;
     }
     .container-bottom-input{
         margin-top: 30px;
