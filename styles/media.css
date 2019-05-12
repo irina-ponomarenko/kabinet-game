@@ -996,9 +996,10 @@
         font-size: 14px;
     }
     .wrapper-bottom-footer-modal{
-        bottom: 0;
+        bottom: 67px;
         max-width: 250px;
         padding: 3px;
+        z-index: 1000;
     }
     .container-pay-bee{
         padding: 5px 7px;
@@ -1079,7 +1080,7 @@
         bottom: 28px;
     }
     .pay-bee .balance-footer-block {
-        bottom: 30px;
+        bottom: 98px;
     }
     .buy-wax {
         padding-top: 0;
@@ -1110,7 +1111,7 @@
         color: #7b3701;
     }
     .puy-wax .wrapper-bottom-footer-modal {
-        bottom: 0;
+        bottom: 70px;
     }
     .error-honey{
         font-size: 18px;
@@ -1154,7 +1155,7 @@
         margin-bottom: 40px;
     }
     .modernize .balance-footer-block {
-        bottom: 30px;
+        bottom: 96px;
     }
     .modernize .title-modal h2 {
         font-size: 20px;
@@ -1223,7 +1224,7 @@
     .reward-btn {
         width: 212px;
         height: 45px;
-        bottom: 0;
+        bottom: 23px;
     }
     .modal-ok .header-modal {
         max-width: 100%;
@@ -1238,16 +1239,16 @@
         max-width: 165px;
     }
     .buy-wax .balance-footer-block {
-        bottom: 29px;
+        bottom: 95px;
     }
     .puy-wax .balance-footer-block {
-        bottom: 23px;
+        bottom: 88px;
     }
     .modernize .balance-footer-block {
-        bottom: 30px;
+        bottom: 96px;
     }
     .cryptobee .balance-footer-block {
-        bottom: 27px;
+        bottom: 95px;
     }
 
 
@@ -1909,6 +1910,30 @@
     .trumpet-left{
         background-position: left 10px top;
         top: -5px;
+    }
+    .footer-modal{
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .close-modal-mobile{
+        width: 256px;
+        margin-top: 15px;
+        display: flex;
+    }
+    .wrapper-footer-input + .close-modal-mobile{
+        margin-top: 0;
+    }
+    .paseca  .wrapper-footer-input + .close-modal-mobile{
+        margin-top: 15px;
+    }
+    .modal-bee-footer-mobile{
+        display: flex;
+        min-height: 80px;
+        padding-bottom: 0;
+    }
+    .limit p{
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 997px) {
@@ -2725,6 +2750,11 @@
     .footer-input{
         max-width: 162px;
         border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .uley-input{
+        flex-direction: row;
     }
     .footer-input:first-child {
         margin-right: 10px;
@@ -2834,10 +2864,10 @@
         padding: 0;
     }
     .wrapper-modal{
-        height: 85vh;
+        height: 87vh;
     }
     .cryptobee{
-        height: 90vh;
+        height: 92vh;
     }
     .container-bottom-input{
         margin-top: 30px;

@@ -2914,3 +2914,12 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .mobile-upgrade{
     display: none;
 }
+.wrapper-footer-input{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.close-modal-mobile,
+.modal-bee-footer-mobile{
+    display: none;
+}

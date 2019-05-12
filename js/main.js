@@ -68,4 +68,7 @@ $(document).ready(function () {
       $(".close-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
     });
+    $(".close-modal-mobile").click(function() {
+        $(".mobile-menu").removeClass("active-mobile-menu");
+    });
 });
