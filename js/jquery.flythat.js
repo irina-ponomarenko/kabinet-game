@@ -141,7 +141,7 @@
                 backdropClass: false, // custom class for backgrop/overlay
                 backdropColor: '#333333',
                 backdropColorRGBA: 'rgba(0, 0, 0, 0.75)',
-                zIndex: 8888
+                zIndex: 99999999
             }, options);
         },
         _addEventsListener: function()
