@@ -1391,6 +1391,7 @@
         bottom: 0;
         left: 0;
         right: 0;
+        z-index: 100;
     }
     .close-mobile{
         width: 300px;
@@ -2065,72 +2066,8 @@
         left: 176px;
     }
 }
-@media only screen and (max-width: 737px) and (min-width: 415px) {
-    .tryba-drop:nth-child(6) {
-        top: 515px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(3) {
-        top: 263px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(4) {
-        top: 262px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(6) {
-        top: 390px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(7) {
-        top: 519px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(9) {
-        top: 772px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(10) {
-        top: 944px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(11) {
-        top: 939px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(13) {
-        top: 1196px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(14) {
-        top: 1279px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(15) {
-        top: 1370px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(16) {
-        top: 1451px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(18) {
-        top: 1704px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(19) {
-        top: 1708px;
-        left: 2px;
-    }
-    .tryba-drop:nth-child(4) {
-        top: 347px;
-        left: 2px;
-    }
 
-    .tryba-drop:nth-child(21) {
-        top: 1834px;
-        left: 2px;
-    }
+@media only screen and (max-width: 737px) and (min-width: 415px) {
     .flythat img {
         max-width: 100px;
     }
@@ -2288,8 +2225,133 @@
     .cryptobee .green-bee-btn::after{
         display: none;
     }
+    .footer-modal-mobile{
+        padding-top: 26px;
+    }
+    .uley-input{
+        height: 46px;
+    }
+    .uley-input span{
+        top: 14px;
+    }
+    .center-change {
+        margin-bottom: 13px;
+    }
+    .puy-wax .pay-wax{
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .buy-input{
+        height: 35px;
+    }
+    .buy-honey-bank h3{
+        margin-bottom: 8px;
+    }
+    .buy-honey-bank{
+        margin-bottom: 10px;
+    }
+    .error-honey {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .puy-wax .wrapper-bottom-footer-modal {
+        bottom: 57px;
+    }
+    .puy-wax .balance-footer-block {
+        bottom: 67px;
+    }
+    .pay-wax {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        max-width: 505px;
+    }
+    .wax-span::before, .wax-span-change::before{
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
+    .center-change, .center-change span {
+        font-size: 25px;
+    }
+    .wax-span, .wax-span-change {
+        padding-left: 31px;
+        position: relative;
+        margin-right: 14px;
+    }
+    .many-change::before{
+        width: 25px;
+        height: 25px;
+    }
+    .many-change {
+        margin-left: 12px;
+        padding-left: 33px;
+        position: relative;
+    }
+    .green-bee-btn{
+        height: 35px;
+        font-size: 14px;
+    }
+    .buy-wax .balance-footer-block {
+        bottom: 74px;
+    }
+    .wrapper-content-box{
+        margin-bottom: 15px;
+    }
+    .percent-status span {
+        font-size: 27px;
+        font-weight: bold;
+    }
+    .title-content-box {
+        color: #333333;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .modernize-btn{
+        font-size: 14px;
+        font-weight: bold;
+        height: 37px;
+        width: 233px;
+    }
+    .airdrop .img-reward {
+        margin-top: 40px;
+    }
+    .about-bee{
+        text-align: center;
+        max-width: 595px;
+    }
+    .my-bee-home, .my-bee-home span {
+        font-size: 16px;
+    }
+    .my-bee-home{
+        margin-bottom: 0;
+    }
+    .count-bee::before{
+        left: 4px;
+        bottom: 0;
+        top: -5px;
+        width: 36px;
+        height: 32px;
+    }
+    .count-bee {
+        font-size: 24px !important;
+    }
+    .pay-bee .balance-footer-block {
+        bottom: 73px;
+    }
+    .more-nead{
+        margin-bottom: 15px;
+    }
+    .limit p {
+        font-size: 14px;
+    }
+    .limit p a{
+        font-size: 17px;
+    }
 
 }
+
 @media screen and (max-width: 720px) and (min-width: 320px) {
     .mehanizm-container {
         bottom: 29px;
@@ -2327,6 +2389,123 @@
         margin-left: 121px;
     }
 }
+
+@media only screen and (max-width: 667px) and (min-width: 360px) {
+    .flythat img {
+        max-width: 79px;
+    }
+    .give-medale {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .wax-reward:before {
+        width: 30px;
+        height: 25px;
+        top: 0px;
+    }
+    .wrapper-reward span {
+        font-size: 22px;
+    }
+    .next-medal {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .center-change, .center-change span {
+        font-size: 20px;
+    }
+    .buy-input {
+        height: 30px;
+        font-size: 16px;
+    }
+    .buy-honey-bank{
+        max-width: 270px;
+    }
+    .pay-wax{
+        font-size: 12px;
+    }
+    .error-honey {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .buy-wax .balance-footer-block {
+        bottom: 66px;
+    }
+    .buy-wax .wrapper-bottom-footer-modal {
+        max-width: 196px;
+        border-radius: 10px;
+    }
+    .container-pay-bee {
+        padding: 2px;
+        border-radius: 7px;
+    }
+    .summa-dohod img {
+        max-width: 22px;
+    }
+    .buy-honey-bank h3 {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .percent-status {
+        font-size: 18px;
+    }
+    .title-content-box{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .percent-status span {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .about-bee {
+        font-size: 12px;
+    }
+    .green-bee-btn{
+        width: 190px;
+    }
+    .summa-dohod img {
+        max-width: 15px;
+    }
+    .pay-bee .container-pay-bee {
+        padding: 0;
+        border-radius: 7px;
+    }
+    .pay-bee .balance-footer-block {
+        bottom: 66px;
+    }
+    .count-bee {
+        font-size: 20px !important;
+    }
+    .count-bee::before {
+        left: 5px;
+        bottom: 0;
+        top: -6px;
+        width: 34px;
+        height: 30px;
+    }
+    .my-bee-home, .my-bee-home span {
+        font-size: 14px;
+    }
+    .my-bee-home {
+        margin-top: 8px;
+    }
+    .count-bee{
+        width: 43px;
+        height: 35px;
+    }
+    .cryptobee .green-bee-btn{
+        width: 197px;
+    }
+    .close-modal-mobile {
+        width: 197px;
+        height: 37px;
+        font-size: 14px;
+    }
+
+}
+
+
 @media screen and (max-width: 665px) and (min-width: 320px){
     .header{
         padding: 0 40px;
@@ -2405,6 +2584,73 @@
     .top-progress {
         max-width: 498px;
         margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 360px) {
+    .img-reward{
+        margin-top: 15px;
+    }
+    .title-reward{
+        margin-bottom: 10px;
+    }
+    .small-medal{
+        width: 20px;
+        height: 24px;
+    }
+    .buy-input {
+        height: 25px;
+        font-size: 14px;
+    }
+    .buy-honey-bank {
+        max-width: 235px;
+    }
+    .green-bee-btn {
+        width: 180px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .balance-footer-block span {
+        font-size: 10px;
+    }
+    .buy-wax .balance-footer-block {
+        bottom: 64px;
+    }
+    .balance-footer-block {
+        border-radius: 15px;
+        max-width: 129px;
+        height: 40px;
+        padding-top: 1px;
+    }
+    .modernize-btn {
+        font-size: 12px;
+        font-weight: bold;
+        height: 30px;
+        width: 200px;
+    }
+    .airdrop .img-reward img {
+        max-width: 100px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .airdrop .img-reward {
+        margin-top: 19px;
+    }
+    .about-bee {
+        margin-top: 10px;
+        line-height: 15px;
+    }
+    .cryptobee .green-bee-btn {
+        width: 184px;
+        font-size: 12px;
+    }
+    .wrapper-bottom-footer-modal {
+        max-width: 197px;
+    }
+    .cryptobee .close-modal-mobile {
+        width: 186px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 625px) and (min-width: 320px){
@@ -2596,6 +2842,12 @@
     .pipes {
         max-width: 340px;
         min-height: 352px;
+    }
+    .game-rounds:before{
+        width: 42px;
+    }
+    .window{
+        left: 58px;
     }
     .trumpet-top {
         width: 86%;
@@ -2887,6 +3139,94 @@
     .tryba-drop:first-child{
         top: 12px;
         left: 3px;
+    }
+    .tryba-drop:nth-child(2) {
+        top: 97px;
+        right: -4px;
+    }
+    .tryba-drop:nth-child(3) {
+        top: 180px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(4) {
+        top: 264px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(5) {
+        top: 349px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(6) {
+        top: 430px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(7) {
+        top: 517px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(8) {
+        top: 600px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(9) {
+        top: 688px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(10) {
+        top: 770px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(11) {
+        top: 856px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(12) {
+        top: 941px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(13) {
+        top: 1027px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(14) {
+        top: 1109px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(15) {
+        top: 1194px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(16) {
+        top: 1277px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(17) {
+        top: 1364px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(18) {
+        top: 1447px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(19) {
+        top: 1533px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(20) {
+        top: 1616px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(21){
+        top: 1701px;
+        left: 3px;
+    }
+    .tryba-drop:nth-child(22),
+    .tryba-drop:nth-child(23),
+    .tryba-drop:nth-child(24),
+    .tryba-drop:nth-child(25),
+    .tryba-drop:nth-child(26),
+    .tryba-drop:nth-child(27){
+        display: none;
     }
     .tryba-drop{
         height: 37px;
