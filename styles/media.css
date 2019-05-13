@@ -3201,7 +3201,7 @@
         top: -71px;
     }
     .wrapper-modal {
-        height: calc(100vh - 53px);
+        height: calc(100vh - 55px);
         z-index: 99999;
     }
 }
