@@ -3204,5 +3204,8 @@
         height: calc(100vh - 55px);
         z-index: 99999;
     }
+    .cryptobee .img-bee img {
+        max-width: 105px;
+    }
 }
 
