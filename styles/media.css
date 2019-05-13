@@ -2802,6 +2802,12 @@
     .wrapper-modal.new-round-modal-2{
         height: 80vh !important;
     }
+    .wrapper-modal.pay-bee{
+        height: 77vh !important;
+    }
+    .wrapper-modal.cryptobee{
+        height: 79vh !important;
+    }
 }
 @media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -3572,7 +3578,7 @@
         bottom: 82px;
     }
     .pay-bee .balance-footer-block {
-        bottom: 82px;
+        bottom: 94px;
     }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
