@@ -3111,6 +3111,17 @@
     .container-bottom-input{
         margin-top: 30px;
     }
+    .wrapper-modal {
+        height: calc(100vh - 55px);
+        z-index: 9999999999 !important;
+    }
+    .cryptobee .img-bee img {
+        max-width: 105px;
+    }
+    .my-bee-home {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
 
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
@@ -3200,12 +3211,6 @@
     .header-round {
         top: -71px;
     }
-    .wrapper-modal {
-        height: calc(100vh - 55px);
-        z-index: 9999999999 !important;
-    }
-    .cryptobee .img-bee img {
-        max-width: 105px;
-    }
+
 }
 
