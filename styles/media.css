@@ -2074,14 +2074,9 @@
     }
     .table-modal tbody tr td:last-child,
     .table-modal thead th:last-child{
-        width: 27%;
+        width: 29%;
     }
-    .doxod{
-        padding-left: 31px;
-    }
-    .summa{
-        padding-left: 36px;
-    }
+
     .wrapper-modal.new-round-modal-2{
         height: 57vh;
     }
