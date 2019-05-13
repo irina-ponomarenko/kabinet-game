@@ -841,13 +841,17 @@
         width: 80px;
     }
 }
+@media screen and (max-width: 1024px)and (min-width: 768px){
+
+}
 @media screen and (max-width: 1000px) and (min-width: 320px){
     .wrapper-modal{
         max-width: 100%;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         background: none;
         background-color: #ffffe2;
+        z-index: 999999999999999;
     }
     .header-modal{
         position: relative;
@@ -1307,6 +1311,9 @@
     }
     .item-menu .button-btn{
        width: 300px;
+    }
+    .item-menu .reit{
+        margin-bottom: 20px;
     }
     .item-menu .back span{
         position: initial;
@@ -1935,6 +1942,7 @@
     .limit p{
         font-size: 16px;
     }
+
 }
 @media screen and (max-width: 1024px) and (min-width: 997px) {
     .top-progress{
@@ -2017,6 +2025,77 @@
         margin-left: 111px;
     }
 }
+@media screen and (max-width: 768px)and (min-width: 1024px){
+    .tryba-drop:nth-child(3) {
+        top: 297px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(4) {
+        top: 413px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(5) {
+        top: 502px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(10) {
+        top: 914px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(11) {
+        top: 971px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(12) {
+        top: 1117px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(13) {
+        top: 1257px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(14) {
+        top: 1354px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(18) {
+        top: 1644px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(10) {
+        top: 914px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(11) {
+        top: 973px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(12) {
+        top: 1084px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(13) {
+        top: 1261px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(14) {
+        top: 1359px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(15) {
+        top: 1390px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(18) {
+        top: 1640px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(19) {
+        top: 1933px;
+        left: 2px;
+    }
+}
+
 @media screen and (max-width: 768px) and (min-width: 320px){
     .top-progress {
         max-width: 521px;
@@ -2056,6 +2135,231 @@
     .wrapper-active {
         left: 176px;
     }
+}
+@media only screen and (max-width: 737px) and (min-width: 415px) {
+    .tryba-drop:nth-child(6) {
+        top: 515px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(3) {
+        top: 263px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(4) {
+        top: 262px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(6) {
+        top: 390px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(7) {
+        top: 519px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(9) {
+        top: 772px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(10) {
+        top: 944px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(11) {
+        top: 939px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(13) {
+        top: 1196px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(14) {
+        top: 1279px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(15) {
+        top: 1370px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(16) {
+        top: 1451px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(18) {
+        top: 1704px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(19) {
+        top: 1708px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(4) {
+        top: 347px;
+        left: 2px;
+    }
+
+    .tryba-drop:nth-child(21) {
+        top: 1834px;
+        left: 2px;
+    }
+    .flythat img {
+        max-width: 100px;
+    }
+    .wax-reward:before {
+        width: 40px;
+        height: 32px;
+    }
+    .wax-reward:before{
+        top: -3px;
+    }
+    .wrapper-reward span {
+        font-size: 25px;
+    }
+    .wax-reward {
+        padding-left: 45px;
+    }
+    .title-modal{
+        padding: 3px 10px;
+    }
+    .title-modal h2 {
+        font-size: 20px;
+    }
+    .flythat .flythat-close {
+        top: 2px;
+        right: 17px;
+    }
+    .modal-bee-footer-mobile{
+        min-height: 50px;
+        padding-bottom: 8px;
+    }
+    .reward-btn {
+        width: 203px;
+        height: 36px;
+        bottom: 14px;
+        font-size: 14px;
+    }
+    .give-medale {
+        margin-top: 11px;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .title-reward {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+    .next-medal {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .next-reward {
+        margin-top: 17px;
+    }
+    .summa-dohod img{
+        max-width: 25px;
+    }
+    .all-dohod {
+        font-size: 16px;
+    }
+    .wrapper-bottom-footer-modal{
+        max-width: 200px;
+        bottom: 54px;
+    }
+    .container-pay-bee {
+        padding: 3px 0;
+        border-radius: 9px;
+    }
+    .cryptobee .balance-footer-block {
+        bottom: 39px;
+        z-index: 100;
+    }
+    .balance-footer-block{
+        border-radius: 15px;
+        max-width: 139px;
+        height: 41px;
+        padding-top: 3px;
+    }
+    .about-bee {
+        margin-top: 15px;
+        line-height: 17px;
+    }
+    .cryptobee .my-bee-home {
+        font-size: 16px;
+    }
+    .my-bee-home {
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+    .price-bee:before {
+        width: 21px;
+        height: 19px;
+    }
+    .price-bee:before{
+        top: 0px;
+    }
+    .item-about-cryptobee span {
+        font-size: 18px;
+    }
+    .price-bee {
+        padding-left: 27px;
+        position: relative;
+    }
+    .item-about-cryptobee p {
+        font-size: 12px;
+    }
+    .item-about-cryptobee {
+        margin-bottom: 5px;
+    }
+    .hour-honey:before {
+        width: 17px;
+        height: 19px;
+    }
+    .hour-honey:before{
+        top: 0px;
+    }
+    .hour-wax:before {
+        width: 20px;
+        height: 20px;
+    }
+    .hour-wax:before{
+        top: 0;
+    }
+    .close-modal-mobile{
+        width: 215px;
+        height: 37px;
+        font-size: 14px;
+    }
+    .cryptobee .header-modal .title-modal h2 {
+        font-size: 20px;
+    }
+    .hour-wax {
+        position: relative;
+        padding-left: 24px;
+    }
+    .cryptobee .about-bee{
+        padding-bottom: 5px;
+    }
+    .cryptobee .close-modal-mobile{
+        position: absolute;
+        right: 20px;
+        margin-top: 20px;
+    }
+    .cryptobee .wrapper-bottom-footer-modal{
+        bottom: 17px;
+    }
+    .cryptobee .green-bee-btn{
+        top: inherit;
+        position: absolute;
+        bottom: 18px;
+        left: 20px;
+        font-size: 14px;
+        width: 216px;
+        height: 37px;
+    }
+    .cryptobee .green-bee-btn::after{
+        display: none;
+    }
+
 }
 @media screen and (max-width: 720px) and (min-width: 320px) {
     .mehanizm-container {
@@ -2719,6 +3023,9 @@
     .list-button-menu{
         margin-top: 82px;
     }
+    .item-menu .reit{
+        margin-bottom: 20px;
+    }
     .table-modal{
         max-width: 340px;
     }
@@ -2729,6 +3036,7 @@
         width: 14px;
         height: 13px;
         left: 0;
+        top: -2px;
     }
     .doxod:before{
         width: 14px;
@@ -2737,9 +3045,11 @@
     .doxod{
         padding-right: 0;
         padding-left: 12px;
+        margin-right: 4px;
     }
     .summa{
         padding-left: 21px;
+        margin-left: 2px;
     }
     .table-modal thead th:last-child {
         width: 30%;
@@ -2891,6 +3201,14 @@
         background-size: contain;
         left: 48%;
     }
+    .tryba-drop:nth-child(9) {
+        top: 772px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(19) {
+        top: 1701px;
+        left: 2px;
+    }
     .mobile-upgrade{
         left: 54%;
     }
@@ -2939,10 +3257,19 @@
     .header-round {
         top: -71px;
     }
-
+    .cryptobee .flythat img {
+        max-width: 120px;
+    }
+    .center-change {
+        margin-bottom: 15px;
+    }
+    .pay-wax{
+        margin-bottom: 18px;
+    }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
     .header-round {
         top: -71px;
     }
 }
+
