@@ -2067,7 +2067,6 @@
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
     .wrapper-modal{
         height: 64vh;
-        max-width: 88vw;
     }
     .wrapper-modal .header-modal{
         padding-left: 0;
