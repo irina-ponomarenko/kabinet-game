@@ -3649,6 +3649,12 @@
     .nuber-position:before{
         top: -5px;
     }
+    .table-modal tbody tr td:last-child{
+        white-space: nowrap !important;
+    }
+    .table-modal tbody tr td span {
+        white-space: nowrap;
+    }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
     .header-round {
