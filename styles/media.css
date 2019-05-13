@@ -3658,6 +3658,9 @@
     .table-modal tbody tr td span {
         white-space: nowrap;
     }
+    .nuber-position {
+        padding-right: 20px;
+    }
 
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
