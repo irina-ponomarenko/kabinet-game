@@ -3574,9 +3574,6 @@
     .pay-bee .balance-footer-block {
         bottom: 82px;
     }
-    .wrapper-modal.new-round-modal-2{
-        height: 80vh !important;
-    }
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
     .header-round {
