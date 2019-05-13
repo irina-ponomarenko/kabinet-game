@@ -3201,9 +3201,8 @@
         top: -71px;
     }
     .wrapper-modal {
-        /*height: calc(100vh - 55px);*/
-        height: 100vh;
-        z-index: 99999;
+        height: calc(100vh - 55px);
+        z-index: 9999999999 !important;
     }
     .cryptobee .img-bee img {
         max-width: 105px;
