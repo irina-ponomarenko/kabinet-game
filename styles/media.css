@@ -2108,7 +2108,7 @@
 
 @media only screen and (max-width: 737px) and (min-width: 415px) and (orientation: landscape) {
     .flythat img {
-        max-width: 100px;
+        max-width: 90px;
     }
     .wax-reward:before {
         width: 40px;
@@ -2185,8 +2185,9 @@
         padding-top: 3px;
     }
     .about-bee {
-        margin-top: 15px;
-        line-height: 17px;
+        margin-top: 11px;
+        line-height: 15px;
+        margin-bottom: 5px;
     }
     .cryptobee .my-bee-home {
         font-size: 16px;
@@ -2276,9 +2277,19 @@
     .center-change {
         margin-bottom: 13px;
     }
-    .puy-wax .pay-wax{
-        margin-bottom: 15px;
-        margin-top: 10px;
+    .puy-wax .pay-wax {
+        margin-bottom: 5px;
+        margin-top: 6px;
+    }
+    .percent-status {
+        font-size: 20px;
+    }
+    .percent-status span {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .balance-footer-block::after{
+        border-radius: 15px;
     }
     .buy-input{
         height: 35px;
@@ -2332,7 +2343,11 @@
         font-size: 14px;
     }
     .buy-wax .balance-footer-block {
-        bottom: 74px;
+        bottom: 69px;
+    }
+    .small-medal {
+        width: 25px;
+        height: 25px;
     }
     .wrapper-content-box{
         margin-bottom: 15px;
@@ -2377,7 +2392,7 @@
         font-size: 24px !important;
     }
     .pay-bee .balance-footer-block {
-        bottom: 73px;
+        bottom: 71px;
     }
     .more-nead{
         margin-bottom: 15px;
@@ -3660,6 +3675,9 @@
     }
     .nuber-position {
         padding-right: 20px;
+    }
+    .activ-honey:before{
+        top: -1px;
     }
 
 }
