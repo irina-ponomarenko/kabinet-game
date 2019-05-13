@@ -2072,7 +2072,10 @@
         padding-left: 0;
         padding-right: 0;
     }
-
+    .table-modal tbody tr td:last-child,
+    .table-modal thead th:last-child{
+        width: 27%;
+    }
     .wrapper-modal.new-round-modal-2{
         height: 57vh;
     }
