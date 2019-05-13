@@ -3200,5 +3200,9 @@
     .header-round {
         top: -71px;
     }
+    .wrapper-modal {
+        height: 100vh;
+        z-index: 99999;
+    }
 }
 
