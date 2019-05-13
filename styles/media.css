@@ -2864,10 +2864,10 @@
         padding: 0;
     }
     .wrapper-modal{
-        height: 100vh;
+        height: 87vh;
     }
     .cryptobee{
-        height: 100vh;
+        height: 92vh;
     }
     .container-bottom-input{
         margin-top: 30px;
@@ -2939,12 +2939,7 @@
     .header-round {
         top: -71px;
     }
-.wrapper-modal{
-        max-width: 100%;
-        width: 100%;
-        height: 90vh;
-      
-    }
+
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {
     .header-round {
