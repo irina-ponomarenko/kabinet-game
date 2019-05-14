@@ -2482,6 +2482,9 @@
     .center-change {
         margin-bottom: 8px;
     }
+    .many-change::before{
+        top: -4px;
+    }
     .buy-input {
         height: 30px;
         font-size: 16px;
