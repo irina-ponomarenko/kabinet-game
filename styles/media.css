@@ -3517,12 +3517,28 @@
     }
 
 }
-@media screen and (min-width: 415px)  and (orientation:portrait){
+@media only screen  and (max-width: 415px){
     .buy-wax .balance-footer-block {
         bottom: 80px;
     }
     .pay-bee .balance-footer-block {
         bottom: 80px;
+    }
+
+    .wrapper-modal.new-round-modal-2{
+        height: 80vh;
+    }
+    .wrapper-modal.pay-bee{
+        height: 78vh;
+    }
+    .wrapper-modal.cryptobee{
+        height: 88vh;
+    }
+    .wrapper-modal.buy-wax{
+        height: 83vh;
+    }
+    .wrapper-modal.new-round-modal.airdrop{
+        height: 77vh;
     }
 }
 
@@ -3619,6 +3635,25 @@
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .wrapper-modal.new-round-modal-2{
+        height: 92vh;
+    }
+    .wrapper-modal.pay-bee{
+        height: 90vh;
+    }
+    .wrapper-modal.cryptobee{
+        height: 93vh;
+    }
+    .wrapper-modal.buy-wax{
+        height: 91vh;
+    }
+    .wrapper-modal.new-round-modal.airdrop{
+        height: 89vh;
+    }
+}
+
+
 @media screen and (min-width: 360px) and (max-width: 640px)  and (orientation:portrait){
     .buy-wax .balance-footer-block {
         bottom: 93px;
@@ -3635,21 +3670,7 @@
     .wrapper-modal.buy-wax.puy-wax.modernize .balance-footer-block{
         bottom: 95px;
     }
-    .wrapper-modal.new-round-modal-2{
-        height: 80vh;
-    }
-    .wrapper-modal.pay-bee{
-        height: 78vh;
-    }
-    .wrapper-modal.cryptobee{
-        height: 88vh;
-    }
-    .wrapper-modal.buy-wax{
-        height: 83vh;
-    }
-    .wrapper-modal.new-round-modal.airdrop{
-        height: 77vh;
-    }
+
     .my-bee-home {
         margin-top: 18px;
         margin-bottom: 11px;
