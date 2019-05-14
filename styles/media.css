@@ -2454,16 +2454,27 @@
         font-size: 14px;
     }
     .wax-reward:before {
-        width: 30px;
-        height: 25px;
-        top: 0px;
+        width: 25px;
+        height: 20px;
+        top: 2px;
     }
     .wrapper-reward span {
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .wax-reward {
+        padding-left: 31px;
     }
     .next-medal {
         font-size: 14px;
         margin-top: 0;
+    }
+    .next-reward .wax-reward:before {
+        width: 25px;
+        height: 20px;
+        top: 2px;
+    }
+    .next-reward {
+        margin-top: 10px;
     }
     .center-change, .center-change span {
         font-size: 20px;
