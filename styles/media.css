@@ -2532,6 +2532,9 @@
         font-size: 22px;
         font-weight: bold;
     }
+    .wrapper-content-box {
+        margin-bottom: 10px;
+    }
     .about-bee {
         font-size: 12px;
     }
