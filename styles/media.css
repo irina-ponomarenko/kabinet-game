@@ -3660,19 +3660,19 @@
 
 @media only screen and (max-width: 375px) {
     .wrapper-modal.new-round-modal-2{
-        height: 89vh;
+        height: 92vh;
     }
     .wrapper-modal.pay-bee{
-        height: 89vh;
+        height: 90vh;
     }
     .wrapper-modal.cryptobee{
-        height: 89vh;
+        height: 93vh;
     }
     .wrapper-modal.buy-wax{
-        height: 89vh;
+        height: 91vh;
     }
     .wrapper-modal.new-round-modal.airdrop{
-        height: 86vh;
+        height: 88vh;
     }
 }
 
