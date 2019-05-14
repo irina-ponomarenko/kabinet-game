@@ -2446,7 +2446,7 @@
 
 @media only screen and (max-width: 667px) and (min-width: 360px)and (orientation: landscape) {
     .flythat img {
-        max-width: 79px;
+        max-width: 70px;
     }
     .give-medale {
         margin-top: 8px;
