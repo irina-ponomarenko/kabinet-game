@@ -2485,6 +2485,9 @@
     .many-change::before{
         top: -4px;
     }
+    .wax-span::before, .wax-span-change::before{
+        top: -4px;
+    }
     .buy-input {
         height: 30px;
         font-size: 16px;
