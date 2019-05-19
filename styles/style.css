@@ -3026,3 +3026,115 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     white-space: nowrap;
     display: inline-block;
 }
+.new-game{
+    align-items: center;
+    margin-top: 94px;
+    margin-bottom: 35px;
+}
+.new-game img{
+    max-width: 295px;
+}
+.container-adress-wallet{
+    margin: 0 auto;
+    max-width: 380px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.container-adress-wallet h3{
+    text-align: center;
+    font-size: 16px;
+    color: #7b3701;
+    margin-bottom: 10px;
+}
+.wallet-input{
+    border-radius: 10px;
+    border: 2px solid #e38d11;
+    padding: 10px 5px;
+    background-color: #f6f3da;
+    color: #7b3701;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    outline: none;
+}
+.attention-text{
+    font-size: 16px;
+    color: #f24f1e;
+    max-width: 335px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.game-info{
+    font-size: 16px;
+    color: #4d4d4d;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 300px;
+    padding-left: 60px;
+    position: relative;
+}
+.game-info::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    background: url("../image/attention.png")no-repeat;
+    background-size: contain;
+}
+.game-info a{
+    color: #4d4d4d;
+    font-weight: bold;
+}
+.new-game-modal .green-bee-btn{
+    right: 0;
+    left: 0;
+    top: inherit;
+    bottom: -15px;
+    position: absolute;
+}
+.error-close{
+    width: 211px;
+    height: 63px;
+    position: relative;
+    top: inherit;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    box-shadow: 1px -6px 0px -1px rgba(224, 140, 22, 0.8) inset, 1px 6px 0px -1px rgba(255, 204, 79, 0.8) inset;
+}
+.error-close::after{
+    content: '';
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(155,155,155,0.31);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(155,155,155,0.31);
+    box-shadow: 0px 0px 0px 5px rgba(155,155,155,0.31);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.error-modal{
+    background: url("../image/error-window.png")no-repeat;
+    height: 370px;
+    padding-top: 94px;
+}
+.error-modal .container-modal {
+    min-height: 320px;
+}
+.error-text{
+    font-size: 28px;
+    color: #f24f1e;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-top: 40px;
+}

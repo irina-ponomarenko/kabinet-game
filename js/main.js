@@ -56,6 +56,12 @@ $(document).ready(function () {
     $("#modal-text13").flythat({
         fadeIn: 'slow'
     });
+    $("#modal-text14").flythat({
+        fadeIn: 'slow'
+    });
+    $("#modal-text15").flythat({
+        fadeIn: 'slow'
+    });
 
 
     $(".btn-menu").click(function() {

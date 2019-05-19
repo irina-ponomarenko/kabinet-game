@@ -335,6 +335,10 @@
         width: 100px;
         height: 40px;
     }
+    .button-btn.error-close{
+        bottom: 105px;
+        position: absolute;
+    }
     .back{
         width: 119px;
     }
@@ -833,6 +837,32 @@
             opacity: 0;
         }
     }
+    .new-game-modal .green-bee-btn{
+        bottom: 0px;
+    }
+    .error-img img{
+        max-width: 135px;
+    }
+    .error-modal .container-modal {
+        min-height: 283px;
+    }
+    .error-text{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .error-close{
+        width: 135px;
+        height: 46px;
+        bottom: -60px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1366px) and (orientation:portrait){
+    .wrapper-modal.error-modal {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px){
@@ -989,6 +1019,9 @@
         font-size: 16px;
         margin: 0 auto;
         border-radius: 10px;
+    }
+    .new-game-modal .green-bee-btn{
+        bottom: 22px;
     }
     .green-bee-btn:after{
         border-radius: 10px;
@@ -1940,8 +1973,24 @@
     .limit p{
         font-size: 16px;
     }
+    .error-modal{
+        padding-top: 0;
+    }
+    .error-close {
+        width: 179px;
+        height: 40px;
+        position: absolute;
+        top: inherit;
+        bottom: 13px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 18px;
+        box-shadow: 1px -6px 0px -1px rgba(224, 140, 22, 0.8) inset, 1px 6px 0px -1px rgba(255, 204, 79, 0.8) inset;
+    }
 
 }
+
 @media screen and (max-width: 1024px) and (min-width: 997px) {
     .top-progress{
         max-width: 411px;
@@ -2104,8 +2153,32 @@
     .wrapper-modal.cryptobee{
         height: 63vh;
     }
+    .error-modal{
+        padding-top: 0;
+    }
+    .wrapper-modal.error-modal{
+        height: 52vh;
+    }
+    .error-close{
+        width: 211px;
+        height: 46px;
+        position: absolute;
+        bottom: 16px;
+    }
+    .error-modal .container-modal {
+        min-height: 383px;
+    }
+    .error-img img {
+        max-width: 175px;
+    }
+    .error-img{
+        margin-top: 40px;
+    }
+    .error-text{
+        font-size: 28px;
+        margin-top: 40px;
+    }
 }
-
 
 @media only screen and (max-width: 737px) and (min-width: 415px) and (orientation: landscape) {
     .flythat img {
@@ -2404,6 +2477,76 @@
     .limit p a{
         font-size: 17px;
     }
+    .new-game{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .container-adress-wallet h3{
+        font-size: 14px;
+        color: #7b3701;
+        margin-bottom: 5px;
+    }
+    .wallet-input {
+        border-radius: 10px;
+        border: 2px solid #e38d11;
+        padding: 5px 5px;
+        background-color: #f6f3da;
+        color: #7b3701;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+        outline: none;
+    }
+    .container-adress-wallet {
+        margin: 0 auto;
+        max-width: 330px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .attention-text {
+        font-size: 14px;
+        color: #f24f1e;
+        max-width: 297px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .game-info {
+        font-size: 14px;
+        color: #4d4d4d;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 242px;
+        padding-left: 47px;
+        position: relative;
+    }
+    .game-info::before{
+        top: -5px;
+        width: 40px;
+        height: 40px;
+    }
+    .new-game img{
+        max-width: 105px;
+    }
+    .error-modal{
+        padding-top: 0;
+    }
+    .error-close {
+        width: 179px;
+        height: 40px;
+        position: absolute;
+        top: inherit;
+        bottom: 13px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 18px;
+        box-shadow: 1px -6px 0px -1px rgba(224, 140, 22, 0.8) inset, 1px 6px 0px -1px rgba(255, 204, 79, 0.8) inset;
+    }
+    .error-img img {
+        max-width: 135px;
+    }
 
 }
 
@@ -2579,6 +2722,9 @@
         width: 197px;
         height: 37px;
         font-size: 14px;
+    }
+    .error-img img {
+        max-width: 130px;
     }
 
 }
@@ -3539,6 +3685,9 @@
         margin-top: 5px;
         margin-bottom: 10px;
     }
+    .wrapper-modal.error-modal{
+        height: 72vh;
+    }
 
 }
 @media only screen  and (max-width: 415px){
@@ -3563,6 +3712,9 @@
     }
     .wrapper-modal.new-round-modal.airdrop{
         height: 77vh;
+    }
+    .wrapper-modal.new-game-modal{
+        height: 87vh;
     }
 }
 
@@ -3743,6 +3895,60 @@
     }
     .activ-honey:before{
         top: -1px;
+    }
+    .attention-text {
+        font-size: 14px;
+        color: #f24f1e;
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 18px;
+    }
+    .wallet-input {
+        border-radius: 10px;
+        border: 2px solid #e38d11;
+        padding: 5px;
+        background-color: #f6f3da;
+        color: #7b3701;
+        font-size: 16px;
+        width: 100%;
+        font-weight: bold;
+        outline: none;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .container-adress-wallet {
+        margin: 0 auto;
+        max-width: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .container-adress-wallet h3 {
+        text-align: center;
+        font-size: 13px;
+        color: #7b3701;
+        margin-bottom: 5px;
+    }
+    .game-info {
+        font-size: 14px;
+        color: #4d4d4d;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 250px;
+        padding-left: 48px;
+        position: relative;
+    }
+    .game-info::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -5px;
+        width: 40px;
+        height: 40px;
+    }
+    .error-text{
+        margin-top: 25px;
     }
 
 }
