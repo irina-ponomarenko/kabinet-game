@@ -1162,6 +1162,50 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     top: 2510px;
     left: 2px;
 }
+.tryba-drop:nth-child(28) {
+    top: 2605px;
+    left: 2px;
+}
+.tryba-drop:nth-child(29) {
+    top: 2700px;
+    left: 2px;
+}
+.tryba-drop:nth-child(30) {
+    top: 2797px;
+    left: 2px;
+}
+.tryba-drop:nth-child(31) {
+    top: 2893px;
+    left: 2px;
+}
+.tryba-drop:nth-child(32) {
+    top: 2989px;
+    left: 2px;
+}
+.tryba-drop:nth-child(33) {
+    top: 3086px;
+    left: 2px;
+}
+.tryba-drop:nth-child(34) {
+    top: 3179px;
+    left: 2px;
+}
+.tryba-drop:nth-child(35) {
+    top: 3278px;
+    left: 2px;
+}
+.tryba-drop:nth-child(36) {
+    top: 3374px;
+    left: 2px;
+}
+.tryba-drop:nth-child(37) {
+    top: 3469px;
+    left: 2px;
+}
+.tryba-drop:nth-child(38) {
+    top: 3565px;
+    left: 2px;
+}
 .tryba-drop img{
     animation: animationFrames1 linear 1s;
     animation-iteration-count: infinite;
@@ -3064,7 +3108,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     max-width: 335px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 .game-info{
     font-size: 16px;
