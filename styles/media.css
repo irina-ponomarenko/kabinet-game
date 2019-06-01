@@ -868,6 +868,25 @@
     .tryba-drop:nth-child(38){
         display: none;
     }
+    .wrapper-reffer-link{
+        max-width: 483px;
+    }
+    .paseca .table-modal tbody {
+        max-height: 262px;
+    }
+    .wrapper-reffer-link + .container-table {
+        margin-top: 25px;
+        min-height: 282px;
+    }
+    .reffer-link-container {
+        padding: 10px;
+        max-width: 320px;
+        width: 100%;
+    }
+    .reffer-btn{
+        width: 118px;
+        height: 40px;
+    }
 
 
 }
@@ -2001,6 +2020,16 @@
         font-size: 18px;
         box-shadow: 1px -6px 0px -1px rgba(224, 140, 22, 0.8) inset, 1px 6px 0px -1px rgba(255, 204, 79, 0.8) inset;
     }
+    .wrapper-reffer-link{
+        margin-top: 10px;
+    }
+     .wrapper-reffer-link + .container-table {
+        margin-top: 13px;
+        min-height: 422px;
+    }
+    .reffer-link-container{
+        padding: 10px;
+    }
 
 }
 
@@ -2043,11 +2072,35 @@
         width: 483px;
     }
 
+
+}
+@media screen and (max-width: 1024px) and (min-width: 320px) {
+    .navbar-landing-nav .list-nav{
+        display: none;
+    }
+   .btn-back-mobile-wrapper-landing{
+        display: flex;
+    }
+     .mobile-wrapper-menu-landing {
+        border-top: 2px solid #c45f00;
+        margin-top: 20px;
+        padding-top: 20px;
+     }
+    .mobile-wrapper-menu-landing .list-nav{
+        margin: 0 auto;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 998px) and (min-width: 320px) {
     .header-round{
         top: -71px;
+    }
+    .landing-statistic-item{
+        max-width: 180px;
+    }
+    .landing-statistic-item::before {
+        left: 0;
     }
 
 }
@@ -2055,6 +2108,145 @@
     .trumpet-left {
         background-position: left 31px top;
         top: -5px;
+    }
+    .mehanica-game{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper-game-screen{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .name-type-medal {
+        font-size: 18px;
+        color: #7b3701;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .big-text {
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .container-img-type-medal img{
+        max-width: 90%;
+    }
+    .regomendation-about-medal {
+        font-size: 18px;
+    }
+    .section-medal {
+        padding: 80px 0 70px;
+    }
+    .section-title {
+        font-size: 30px;
+        color: #7b3701;
+        text-align: center;
+    }
+    .wrapper-mehanizm-block img{
+        max-width: 93%;
+    }
+    .container-text-mehanizm{
+        max-width: 226px;
+    }
+    .text-mehanizm,
+    .result-text-block{
+        font-size: 20px;
+    }
+    .item-text{
+        font-size: 18px;
+    }
+    .container-row {
+        margin-top: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-my-honey img {
+        max-width: 440px;
+        width: 100%;
+    }
+    .wrapper-my-honey {
+        display: flex;
+        justify-content: center;
+    }
+    .container-item-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 46px;
+    }
+    .item-text{
+        max-width: 100%;
+        text-align: justify;
+    }
+    .jcarousel-control-prev, .jcarousel-control-next, .carousel-bee .carousel-control-prev-icon, .carousel-bee .carousel-control-next-icon{
+        width: 25px;
+        height: 49px;
+    }
+    .medal-before::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 45px;
+        height: 45px;
+        background: url('../image/big-medal-icon.png')no-repeat;
+        background-size: contain;
+    }
+    .honey-before::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 45px;
+        height: 45px;
+        background: url('../image/honey-big.png')no-repeat;
+        background-size: contain;
+    }
+    .wax-before::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 45px;
+        height: 45px;
+        background: url('../image/wax-big.png')no-repeat;
+        background-size: contain;
+    }
+    .item-result span {
+        font-size: 50px;
+    }
+    .first-rsult, .first-last {
+        padding-left: 60px;
+        position: relative;
+    }
+    .span-text {
+        margin: 0 28px;
+    }
+    .mehanica-game {
+        flex-wrap: wrap;
+        padding-bottom: 70px;
+    }
+    .section-bonus {
+        padding: 70px 0;
+    }
+    .carousel-bee .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+    }
+    .text-header-block {
+        margin: 10px 0 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .text-header-about-bee{
+        font-size: 18px;
+    }
+    .text-about-game {
+        max-width: 100%;
+    }
+    .mehanica-game .col:nth-child(4), .mehanica-game .col:nth-child(5) {
+        margin-top: 45px;
     }
 
     .game-rounds::before {
@@ -2124,6 +2316,40 @@
     }
     .wrapper-active {
         left: 176px;
+    }
+    .img-container-bee img {
+        max-width: 160px;
+        width: 100%;
+    }
+    .tron-logo {
+        max-width: 160px;
+        width: 100%;
+    }
+    .about-text {
+        font-size: 18px;
+        color: #4d4d4d;
+        margin-bottom: 40px;
+        max-width: 75%;
+        text-align: center;
+    }
+    .item-all-bee:nth-child(2n){
+        margin-right: 0;
+    }
+    .item-all-bee{
+        max-width: 235px;
+    }
+    .result-bee-title, .title-price-bee, .title-about-medal{
+        font-size: 14px;
+    }
+    .price-bee-text, .product-bee-text, .block-tetx-medal-result, .big-text {
+        color: #e76402;
+        font-size: 14px;
+    }
+    .percent-big {
+        font-size: 20px;
+    }
+    .summa{
+        float: left;
     }
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -2944,6 +3170,12 @@
         max-width: 483px;
         margin-left: 78px;
     }
+    .mobile-wrapper-menu-landing .list-nav {
+        flex-direction: column;
+    }
+    .nav-list-item{
+        margin: 10px 0;
+    }
 
 }
 @media screen and (max-width: 600px) and (min-width: 320px){
@@ -3028,6 +3260,18 @@
         left: 0;
     }
 
+}
+@media screen and (max-width: 475px) and (min-width: 320px){
+    .go-to-game{
+        width: 125px;
+        height: 45px;
+    }
+    .navbar-landing-nav {
+        margin-right: 20px;
+    }
+    .container-logo img{
+        max-width: 80px;
+    }
 }
 @media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -3701,6 +3945,51 @@
     .wrapper-modal.error-modal{
         height: 72vh;
     }
+    .landing-statistic-item {
+        max-width: 193px;
+        margin-right: 0;
+    }
+    .landing-statistic-item .info-item{
+        max-width: 193px;
+    }
+    .item-result span {
+        font-size: 35px;
+    }
+    .go-to-game {
+        margin-right: 15px;
+        position: relative;
+        height: 40px;
+        width: 130px;
+    }
+    .btn-menu-landing{
+        height: 45px;
+    }
+    .landing-header{
+        padding: 13px 5px;
+    }
+    .header-navigation .go-to-game{
+        width: 100px;
+    }
+    .reffer-link-container{
+        padding: 8px;
+        max-width: 221px;
+    }
+    .wrapper-reffer-link{
+        max-width: 321px;
+    }
+    .title-reffer {
+        font-size: 12px;
+        color: #4d4d4d;
+        margin-bottom: 5px;
+    }
+    .wrapper-reffer-link + .container-table {
+        margin-top: 15px;
+    }
+    .table-arrow {
+        width: 8px;
+        height: 15px;
+        float: right;
+    }
 
 }
 @media only screen  and (max-width: 415px){
@@ -3812,6 +4101,31 @@
     }
     .pay-wax{
         margin-bottom: 18px;
+    }
+    .container-logo img{
+        max-width: 70px;
+    }
+    .landing-header{
+        padding: 10px 5px;
+    }
+    .img-container-bee img {
+        max-width: 133px;
+        width: 100%;
+    }
+    .tron-logo {
+        max-width: 133px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .go-to-game {
+        width: 120px;
+    }
+    .header-sections{
+        padding-bottom: 25px;
+    }
+    .reffer-btn{
+        width: 101px;
+        font-size: 13px;
     }
 }
 

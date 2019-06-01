@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   $('.btn-drop-down').click(function () {
+$('.btn-drop-down').click(function () {
       $('.list-db').toggleClass('active-lg-db');
    });
 
@@ -77,4 +77,14 @@ $(document).ready(function () {
     $(".close-modal-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
     });
+
+
+	 $('.jcarousel').jcarouselAutoscroll({
+	 	autostart: true
+	 });
+
+	 $('.btn-menu-landing').on('click', function(){
+	 	$(this).closest('.landing-header').find('.mobile-wrapper-menu-landing').slideToggle();
+
+	 });
 });
