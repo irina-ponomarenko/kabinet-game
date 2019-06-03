@@ -3280,6 +3280,14 @@
     .item-all-bee{
         margin-right: 0;
     }
+    .item-result{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-content-list-result{
+        text-align: center;
+    }
     .top-progress{
         margin-left: 77px;
         max-width: 285px;
