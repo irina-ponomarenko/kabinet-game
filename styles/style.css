@@ -3426,9 +3426,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     align-items: flex-end;
 }
 .text-col-left{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  text-align: left;
 }
 .mehanica-game .col:nth-child(4),
 .mehanica-game .col:nth-child(5){
@@ -3482,10 +3480,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     background-size: contain;
 }
 .wrapper-content-list-result{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+   text-align: right;
 }
 .wrapper-result-mehanica{
     position: relative;
