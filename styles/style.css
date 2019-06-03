@@ -3417,11 +3417,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     font-weight: bold;
     margin-right: 5px;
 }
-.text-about-game{
-    max-width: 90%;
-}
 .text-col-right{
-    text-align: left;
+    text-align: right;
 }
 .text-col-left{
   text-align: left;
