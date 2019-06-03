@@ -3485,6 +3485,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.wrapper-result-mehanica{
+    position: relative;
 }
 .item-result:first-child{
     margin-bottom: 40px;
@@ -3503,11 +3507,16 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     text-align: center;
     max-width: 75%;
     margin: 0 auto;
+    margin-top: 15px;
 }
 .dark-text{
     color: #7b3701;
     font-weight: bold;
     line-height: 28px;
+}
+.small-percent{
+    font-size: 16px;
+    color: #e76402;
 }
 .title-footer-about-bee{
     font-size: 20px;
@@ -3519,9 +3528,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .block-tetx-medal-result,
 .big-text{
     color: #e76402;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     display: flex;
+    align-items: baseline;
 }
 .block-tetx-medal-result{
     display: flex;
@@ -3812,4 +3822,8 @@ border-radius: 10px;
 .red-errow{
     background: url("../image/arrow-down-red.png")no-repeat;
     background-size: contain;
+}
+.section-content{
+    position: relative;
+    z-index: 1000;
 }
