@@ -3421,9 +3421,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     max-width: 90%;
 }
 .text-col-right{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    text-align: left;
 }
 .text-col-left{
   text-align: left;
