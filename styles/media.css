@@ -887,6 +887,11 @@
         width: 118px;
         height: 40px;
     }
+    .glashatai {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 200px;
+    }
 
 
 }
@@ -901,6 +906,14 @@
     .blue-btn,
     .withdraw-btn{
         width: 80px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 320px){
+    .item-representative:nth-child(4n){
+         margin-right: 40px;
+     }
+    .item-representative:nth-child(3n){
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 320px){
@@ -2102,6 +2115,15 @@
     .landing-statistic-item::before {
         left: 0;
     }
+    .item-representative{
+        margin-right: 30px;
+    }
+    .item-representative:nth-child(3n) {
+        margin-right: 30px;
+    }
+    .item-representative:nth-child(4n) {
+        margin-right: 30px;
+    }
 
 }
 @media screen and (max-width: 950px) and (min-width: 320px) {
@@ -2261,6 +2283,7 @@
     .trumpet-top{
         background-position: left 41px top;
     }
+
 }
 @media screen and (max-width: 915px) and (min-width: 320px) {
     .mehanizm-container{
@@ -2350,6 +2373,19 @@
     }
     .summa{
         float: left;
+    }
+    .item-representative {
+        margin-right: 20px;
+        max-width: 233px;
+    }
+    .item-representative:nth-child(2n){
+        margin-right: 0;
+    }
+    .item-representative:nth-child(3n){
+        margin-right: 20px;
+    }
+    .item-representative:nth-child(4n){
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -3259,7 +3295,38 @@
     .wrapper-content-round::before{
         left: 0;
     }
+    .item-representative:nth-child(3) {
+        margin-right: 20px;
+    }
+    .item-representative:nth-child(2n) {
+        margin-right: 0;
+    }
+    .item-representative:nth-child(4n) {
+        margin-right: 0;
+    }
+    .item-representative {
+        margin-right: 20px;
+        max-width: 233px;
+    }
 
+}
+@media screen and (max-width: 510px) and (min-width: 320px){
+    .item-representative:nth-child(3) {
+        margin-right: 0;
+    }
+    .item-representative:nth-child(3n) {
+        margin-right: 0;
+    }
+    .item-representative:nth-child(2n) {
+        margin-right: 0;
+    }
+    .item-representative:nth-child(4n) {
+        margin-right: 0;
+    }
+    .item-representative {
+        margin-right: 0;
+        max-width: 244px;
+    }
 }
 @media screen and (max-width: 475px) and (min-width: 320px){
     .go-to-game{
@@ -4006,6 +4073,15 @@
     }
     .text-col-left{
         text-align: justify;
+    }
+    .page-link,
+    .pagination-more{
+        width: 40px;
+        text-align: center;
+        height: 40px;
+    }
+    .page-item {
+        margin-right: 13px;
     }
 
 }

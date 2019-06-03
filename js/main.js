@@ -88,7 +88,9 @@ $('.btn-drop-down').click(function () {
 
 	 });
 
-    $(".list-nav").on("click","a", function (event) {
+
+
+    $(".list-nav").on("click",".land-scroll", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
 
