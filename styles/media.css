@@ -915,6 +915,27 @@
     .item-representative:nth-child(3n){
         margin-right: 0;
     }
+    .container-avatar-representative{
+        width: 145px;
+        height: 145px;
+    }
+    .container-avatar-representative img{
+        max-width: 135px;
+        width: 100%;
+    }
+    .item-representative {
+        max-width: 230px;
+    }
+    .wrapper-avatar-representative {
+        position: relative;
+        max-width: 155px;
+    }
+    .button-btn.copy-this-link {
+        width: 165px;
+    }
+    .container-contact-info{
+        padding-top: 55px;
+    }
 }
 @media screen and (max-width: 1000px) and (min-width: 320px){
     .wrapper-modal{
