@@ -1470,6 +1470,12 @@
        max-width: 224px;
        margin-top: 20px;
     }
+    .investment{
+        max-width: 173px;
+    }
+    .wrapper-content-list-result {
+        text-align: center;
+    }
    .wrapper-mobile-menu .name-title{
         max-width: none;
    }
@@ -3378,6 +3384,9 @@
         align-items: center;
         justify-content: center;
     }
+    .investment{
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -3385,6 +3394,9 @@
     }
     .item-all-bee{
         margin-right: 0;
+    }
+    .investment .info-item{
+        max-width: 100%;
     }
     .wrapper-content-list-result{
         text-align: center;
