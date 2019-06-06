@@ -320,7 +320,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding: 1px 3px;
     padding-top: 2px;
     margin-right: 40px;
-    justify-content: space-between
 }
 .wrapper-input:last-child{
     margin-right: 0;
@@ -398,7 +397,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     -moz-box-shadow: 0px 0px 0px 5px rgba(215,107,2,1);
     box-shadow: 0px 0px 0px 5px rgba(215,107,2,1);
     position: relative;
-    min-height: 35px;
 }
 .progress-line{
     position: absolute;
@@ -1887,8 +1885,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     display: flex;
     align-items: flex-end;
     margin-bottom: 20px;
-    width: 100%;
-    justify-content: space-around;
 }
 .footer-btn{
     width: 100px;
@@ -2021,6 +2017,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
  }
  .title-modal{
     background: linear-gradient(to right, rgba(231,148,32,1) 0%, rgba(230,147,31,1) 100%);
+    max-width: 234px;
     width: 100%;
     border-radius: 15px;
     display: flex;
@@ -2050,12 +2047,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     right: 0;
     top: 0;
-     opacity: 1;
  }
-.close:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
  .modal-btn{
     background: linear-gradient(to bottom, rgba(255,199,59,1) 0%, rgba(235,146,21,1) 100%);
     box-shadow: 1px -6px 0px -1px rgba(224, 140, 22, 0.8) inset, 1px 6px 0px -1px rgba(255, 204, 79, 0.8) inset;
@@ -2136,8 +2128,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .table-modal thead th:last-child{
     width: 25%;
-    white-space: nowrap;
-    font-size: 15px;
 }
 .table-modal tbody tr td:last-child{
     width: 25%;

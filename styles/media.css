@@ -15,7 +15,7 @@
     .container-table {
         margin: 0 auto;
         margin-top: 66px;
-        min-height: 398px;
+        min-height: 395px;
     }
     .table-modal {
         max-width: 485px;
@@ -147,10 +147,10 @@
         margin-bottom: 20px;
     }
     .container-pay-bee{
-        padding: 5px 10px;
+        padding: 8px 10px;
     }
     .summa-dohod img{
-        width: 23px;
+        width: 30px;
         height: auto;
     }
     .all-dohod{
@@ -170,6 +170,9 @@
     }
     .puy-wax .title-modal h2 {
         font-size: 22px;
+    }
+    .modernize .title-modal {
+        max-width: 300px;
     }
     .modernize .header-modal {
         max-width: 347px;
@@ -324,7 +327,7 @@
         width: 65px;
         height: 65px;
         background-size: contain;
-        top: -26px;
+        top: -21px;
         right: -10px;
     }
 
@@ -382,7 +385,7 @@
     }
     .name-title{
         padding: 12px 16px;
-        max-width: 209px;
+        max-width: 189px;
     }
     .btn-green{
         width: 83px;
@@ -441,7 +444,7 @@
     }
     .item-time{
         width: 210px;
-        height: 57px;
+        height: 41px;
         padding: 5px;
     }
     .wax-and-honey-in-time{
@@ -498,13 +501,10 @@
         padding-left: 171px;
     }
     .item-rounds{
-        max-width: 811px;
+        max-width: 640px;
         height: 260px;
         background-size: contain;
         margin-top: 87px;;
-    }
-    .item-rounds:nth-child(2n) {
-        max-width: 721px;
     }
     .text-info-round{
         padding: 10px;
@@ -516,7 +516,7 @@
     }
 
     .title-round{
-        font-size: 17px;
+        font-size: 18px;
     }
     .wrapper-content-round{
         padding-top: 0;
@@ -761,7 +761,6 @@
     .modernize-btn{
         width: 200px;
         height: 50px;
-        color: #ffffff;
     }
     .airdrop{
         height: 400px;
@@ -1072,7 +1071,6 @@
     }
     .flythat img {
         max-width: 140px;
-        width: 100%;
     }
     .my-bee-home, .my-bee-home span{
         font-size: 18px;
@@ -1176,7 +1174,7 @@
         font-size: 20px;
     }
     .summa-dohod img{
-        max-width: 20px;
+        max-width: 30px;
     }
     .pay-bee-more .balance-footer-block {
         bottom: 28px;
@@ -1213,7 +1211,7 @@
         color: #7b3701;
     }
     .puy-wax .wrapper-bottom-footer-modal {
-        bottom: 64px;
+        bottom: 70px;
     }
     .error-honey{
         font-size: 18px;
@@ -1245,7 +1243,6 @@
         height: 40px;
         position: relative;
         border-radius: 10px;
-        color: #ffffff;
     }
     .modernize-btn:after{
         border-radius: 10px;
@@ -1470,12 +1467,6 @@
        max-width: 224px;
        margin-top: 20px;
     }
-    .investment{
-        max-width: 173px;
-    }
-    .wrapper-content-list-result {
-        text-align: center;
-    }
    .wrapper-mobile-menu .name-title{
         max-width: none;
    }
@@ -1546,7 +1537,7 @@
      }
      .item-time{
         border-radius: 15px;
-        height: 62px;
+        height: 45px;
         padding: 5px;
         width: 208px;
      }
@@ -1662,9 +1653,6 @@
      .info-round{
         color: #823600;
      }
-    .title-round{
-        font-size: 19px;
-    }
      .btn-blue{
          width: 100%;
     }
@@ -1676,14 +1664,11 @@
     .item-rounds{
         max-width: 540px;
         width: 95%;
-        height: 322px;
+        height: 222px;
         background-size: contain;
         padding-top: 100px;
         margin: 0 auto;
 
-    }
-    .item-rounds:nth-child(2n) {
-        max-width: 540px;
     }
     .sotu-container::before{
       width: 451px;
@@ -1968,7 +1953,6 @@
     .list-top-footer{
         flex-direction: column;
         align-items: flex-start;
-        width: auto;
     }
     .item-footer-top-list p{
         font-size: 21px;
@@ -2040,9 +2024,6 @@
         width: 256px;
         margin-top: 15px;
         display: flex;
-        color: #ffffff;
-        margin-bottom: 6px;
-        opacity: 1;
     }
     .wrapper-footer-input + .close-modal-mobile{
         margin-top: 0;
@@ -2082,6 +2063,12 @@
     }
     .reffer-link-container{
         padding: 10px;
+    }
+    .wrapper-result-mehanica{
+        text-align: center;
+    }
+    .wrapper-list-statistic .statistic-item{
+        max-width: 173px !important;
     }
 
 }
@@ -3384,9 +3371,6 @@
         align-items: center;
         justify-content: center;
     }
-    .investment{
-        margin-right: 0;
-    }
 }
 @media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
@@ -3394,9 +3378,6 @@
     }
     .item-all-bee{
         margin-right: 0;
-    }
-    .investment .info-item{
-        max-width: 100%;
     }
     .wrapper-content-list-result{
         text-align: center;
@@ -3427,7 +3408,7 @@
     }
     .item-time{
         border-radius: 10px;
-        height: 46px;
+        height: 36px;
         padding: 3px;
         width: 150px;
     }
@@ -3527,14 +3508,10 @@
         height: 23px;
     }
     .wrapper-active-honey{
-        height: 247px;
+        height: 233px;
         bottom: 24px;
         right: -7px;
         overflow: hidden;
-    }
-    .text-info-round{
-        padding: 0;
-        padding: 18px 0;
     }
     .drop-honey {
         width: 18px;
@@ -3543,14 +3520,15 @@
         margin-bottom: 103px;
     }
     .header-round{
-        max-width: 215px;
-        margin-right: 34px;
+        max-width: 200px;
     }
     .info-round{
-        font-size: 15px;
+        font-size: 14px;
+        white-space: nowrap;
     }
     .title-round{
-        font-size: 14px;
+        font-size: 13px;
+        white-space: nowrap;
     }
     .button-btn {
         height: 37px;
@@ -3577,7 +3555,7 @@
         bottom: 152px;
     }
     .item-rounds{
-        height: 243px;
+        height: 143px;
     }
     .drop-big {
         width: 52px;
@@ -4133,6 +4111,11 @@
     }
     .page-item {
         margin-right: 13px;
+    }
+
+    .wrapper-list-statistic .statistic-item{
+        max-width: 173px !important;
+        margin-right: 0;
     }
 
 }
