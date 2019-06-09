@@ -4114,8 +4114,11 @@
     }
 
     .wrapper-list-statistic .statistic-item{
-        max-width: 173px !important;
+        max-width: 193px !important;
         margin-right: 0;
+    }
+    .wrapper-list-statistic .statistic-item .info-item{
+        max-width: 193px;
     }
 
 }
