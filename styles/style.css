@@ -2297,9 +2297,10 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: 0 auto;
     justify-content: center;
     display: flex;
+    align-items: center;
 }
 .pay-bee .title-modal h2{
-    font-size: 24px;
+    font-size: 23px;
 }
 .pay-bee .container-modal{
     padding-top: 90px;

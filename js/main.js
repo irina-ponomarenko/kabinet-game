@@ -62,7 +62,27 @@ $('.btn-drop-down').click(function () {
     $("#modal-text15").flythat({
         fadeIn: 'slow'
     });
+    $("#modal-text16").flythat({
+        fadeIn: 'slow'
+    });
+    $("#modal-text17").flythat({
+        fadeIn: 'slow'
+    });
 
+    $("#modal-text18").flythat({
+        fadeIn: 'slow'
+    });
+    $("#modal-text19").flythat({
+        fadeIn: 'slow'
+    });
+
+    $("#modal-text20").flythat({
+        fadeIn: 'slow'
+    });
+
+    $("#modal-text21").flythat({
+        fadeIn: 'slow'
+    });
 
     $(".btn-menu").click(function() {
 

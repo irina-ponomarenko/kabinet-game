@@ -18,6 +18,7 @@
 }
 .flythat img {
     border: none;
+    max-width: 200px;
 }
 .flythat .flythat-close {
     position: absolute;
