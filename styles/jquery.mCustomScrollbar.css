@@ -112,7 +112,7 @@ y-axis
 	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ /* the dragger element */
 		position: relative;
 		width: 4px;
-		height: 53px;
+		height: 100%;
 		margin: 0 auto;
 		-webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;
 		text-align: center;
@@ -1022,7 +1022,9 @@ yx-axis
 	.mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail{ background-color: transparent; }
 	
 	.mCS-minimal.mCSB_scrollTools_vertical .mCSB_dragger, 
-	.mCS-minimal-dark.mCSB_scrollTools_vertical .mCSB_dragger{ height: 50px; }
+	.mCS-minimal-dark.mCSB_scrollTools_vertical .mCSB_dragger{ height: 50px;
+		background-color: #7b3701;
+	}
 	
 	.mCS-minimal.mCSB_scrollTools_horizontal .mCSB_dragger, 
 	.mCS-minimal-dark.mCSB_scrollTools_horizontal .mCSB_dragger{ width: 50px; }
