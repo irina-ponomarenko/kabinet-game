@@ -4004,6 +4004,74 @@ border-radius: 10px;
     background-size: contain;
     top: -2px;
 }
+.youtobe-address::before{
+    background: url("../image/youtube.svg")no-repeat;
+    background-size: contain;
+}
+.discord-address::before{
+    background: url("../image/discord.svg")no-repeat;
+    background-size: contain;
+}
+.email-address::before{
+    background: url("../image/email.svg")no-repeat;
+    background-size: contain;
+}
+.facebook-address::before{
+    background: url("../image/facebook.svg")no-repeat;
+    background-size: contain;
+}
+.instagram-address::before{
+    background: url("../image/instagram.svg")no-repeat;
+    background-size: contain;
+}
+.kakaotalk-address::before{
+    background: url("../image/KakaoTalk.png")no-repeat;
+    background-size: contain;
+}
+.line-address::before{
+    background: url("../image/line.svg")no-repeat;
+    background-size: contain;
+}
+.linkedin-address::before{
+    background: url("../image/linkedin.svg")no-repeat;
+    background-size: contain;
+}
+.phone-address::before{
+    background: url("../image/phone.png")no-repeat;
+    background-size: contain;
+}
+.skype-address::before{
+    background: url("../image/skype.svg")no-repeat;
+    background-size: contain;
+}
+.slack-address::before{
+    background: url("../image/slack.png")no-repeat;
+    background-size: contain;
+}
+.telegram-address::before{
+    background: url("../image/Telegram.png")no-repeat;
+    background-size: contain;
+}
+.twitter-address::before{
+    background: url("../image/twitter.svg")no-repeat;
+    background-size: contain;
+}
+.viber-address::before{
+    background: url("../image/viber.svg")no-repeat;
+    background-size: contain;
+}
+.vk-address::before{
+    background: url("../image/vk.svg")no-repeat;
+    background-size: contain;
+}
+.wechat-address::before{
+    background: url("../image/wechat.png")no-repeat;
+    background-size: contain;
+}
+.whatsapp-address::before{
+    background: url("../image/whatsapp.svg")no-repeat;
+    background-size: contain;
+}
 .item-contact{
     display: flex;
     flex-direction: column;
