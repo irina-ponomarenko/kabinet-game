@@ -3,17 +3,26 @@ $('.btn-drop-down').click(function () {
       $('.list-db').toggleClass('active-lg-db');
    });
 
+
+    $('.header-item').on('click', function () {
+        $(this).closest('.item-questions').find('.block-questions').slideToggle(500);
+        $(this).closest('.item-questions').find('.click-chevron').toggleClass('rotate-chevron');
+
+    });
+
+
    /*---------------------scroll-----------------*/
 
     (function($){
         $(window).on("load",function(){
 
-            $("tbody").mCustomScrollbar({
+            $("tbody, .container-questions").mCustomScrollbar({
                 theme:"minimal"
             });
 
         });
     })(jQuery);
+
 
 
     /*--------------------------modal window-------------------*/
@@ -84,6 +93,10 @@ $('.btn-drop-down').click(function () {
         fadeIn: 'slow'
     });
 
+    $("#modal-text22").flythat({
+        fadeIn: 'slow'
+    });
+
     $(".btn-menu").click(function() {
 
         $(".mobile-menu").toggleClass("active-mobile-menu");
@@ -123,6 +136,8 @@ $('.btn-drop-down').click(function () {
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
     });
+
+
 
 
     /*-------------------custom select----------------------*/

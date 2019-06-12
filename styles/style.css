@@ -4328,3 +4328,121 @@ border-radius: 10px;
     background: url("../image/8.png")no-repeat;
     background-size: contain;
 }
+.item-contact span a{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+.stub-container{
+    max-width: 695px;
+    width: 100%;
+    height: auto;
+    background: url("../image/stub.png")no-repeat;
+    background-size: contain;
+    min-height: 157px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stub{
+    position: relative;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stub-text{
+    font-size: 20px;
+    color: #4d4d4d;
+    margin: 0 auto;
+    line-height: normal;
+    text-align: center;
+    max-width: 590px;
+    margin-bottom: 15px;
+}
+.stub-text a{
+    color: #e76402;
+    font-size: 20px;
+}
+.more-btn{
+    top: inherit;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.more-btn::after{
+    content: '';
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    box-shadow: 0px 0px 0px 4px rgba(162,162,162,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.questions .container-modal {
+    min-height: 100%;
+}
+.questions .title-modal h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.container-questions{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80%;
+}
+.header-item{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-item-questions{
+    font-size: 20px;
+    color: #7b3701;
+    font-weight: bold;
+}
+
+.item-questions{
+    border-top: 1px solid #f0c67b;
+    border-bottom: 1px solid #f0c67b;
+}
+.list-questions{
+    margin-right: 5px;
+}
+.block-questions{
+    margin-bottom: 15px;
+    display: none;
+}
+.block-questions p{
+    font-size: 16px;
+    color: #000000;
+}
+.click-chevron{
+    border: none;
+    background-color: transparent;
+    background-image: url("../image/arrow-down.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 6px;
+}
+.container-questions{
+    height: 630px;
+    overflow-y: auto;
+}
+.rotate-chevron{
+    transition: .3s;
+    transform: rotate(-180deg);
+}
