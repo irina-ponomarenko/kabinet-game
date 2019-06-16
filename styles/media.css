@@ -896,6 +896,19 @@
         height: 435px;
         overflow-y: auto;
     }
+    .title-carousel{
+        font-size: 60px;
+    }
+    .sub-title-carousel{
+        font-size: 30px;
+        max-width: 490px;
+        line-height: 38px;
+    }
+    .slider-btn {
+        width: 220px;
+        height: 50px;
+        font-size: 20px;
+    }
 
 
 }
@@ -903,6 +916,20 @@
 @media only screen and (max-width: 1366px) and (orientation:portrait){
     .wrapper-modal.error-modal {
         height: auto;
+    }
+    .slider-btn{
+        width: 200px;
+        height: 46px;
+        font-size: 16px;
+    }
+    .title-carousel{
+        font-size: 40px;
+    }
+    .sub-title-carousel{
+        line-height: 36px;
+        font-size: 22px;
+        max-width: 375px;
+        margin-bottom: 30px;
     }
 }
 
@@ -940,6 +967,29 @@
     .container-contact-info{
         padding-top: 55px;
     }
+}
+@media screen and (max-width: 1024px) and (min-width: 320px){
+    .title-carousel {
+        font-size: 30px;
+    }
+    .sub-title-carousel {
+        line-height: 28px;
+        font-size: 18px;
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
+    .sub-title-carousel {
+        line-height: 28px;
+        font-size: 18px;
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
+    .carousel-bee .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
 }
 @media screen and (max-width: 1000px) and (min-width: 320px){
     .wrapper-modal{
