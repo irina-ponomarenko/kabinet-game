@@ -30,7 +30,7 @@
         margin-right: 30px;
     }
     .table-modal tbody{
-        max-height: 450px;
+        max-height: 351px;
     }
     .footer-input{
         max-width: 230px;
@@ -876,7 +876,7 @@
     }
     .wrapper-reffer-link + .container-table {
         margin-top: 25px;
-        min-height: 282px;
+        min-height: 292px;
     }
     .reffer-link-container {
         padding: 10px;
