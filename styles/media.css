@@ -2403,6 +2403,21 @@
     .game-rounds::before{
         background-position: 15.1% 100%;
     }
+    .banner{
+        display: none;
+    }
+    .mobile-banner{
+        display: block;
+    }
+    .title-carousel {
+        font-size: 42px;
+    }
+    .sub-title-carousel {
+        line-height: 38px;
+        font-size: 24px;
+        max-width: 356px;
+        margin-bottom: 25px;
+    }
     .trumpet-top{
         width: 93%;
         background-position: left 18px top;
@@ -3450,6 +3465,28 @@
 @media screen and (max-width: 415px) and (min-width: 320px){
     .btn-back-mobile-wrapper{
         left: 20px;
+    }
+    .mobile-banner {
+        width: 100%;
+    }
+    .title-carousel {
+        font-size: 27px;
+    }
+    .sub-title-carousel {
+        line-height: 25px;
+        font-size: 18px;
+        max-width: 308px;
+        margin-bottom: 25px;
+    }
+    .container-fluid{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .carousel-bee .carousel-control-prev, .carousel-bee .carousel-control-next {
+        width: 12%;
+    }
+    .container-bee-carousel-item{
+        padding: 0;
     }
     .item-all-bee{
         margin-right: 0;

@@ -4740,3 +4740,6 @@ border-radius: 10px;
 .banner{
     width: 100%;
 }
+.mobile-banner{
+    display: none;
+}
