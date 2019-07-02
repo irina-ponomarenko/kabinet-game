@@ -902,12 +902,19 @@
     .sub-title-carousel{
         font-size: 30px;
         max-width: 490px;
-        line-height: 38px;
+        line-height: 42px;
     }
     .slider-btn {
         width: 220px;
         height: 50px;
         font-size: 20px;
+    }
+    .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container-bee-carousel-item{
+        padding: 0;
     }
 
 
@@ -973,13 +980,7 @@
         font-size: 30px;
     }
     .sub-title-carousel {
-        line-height: 28px;
-        font-size: 18px;
-        max-width: 300px;
-        margin-bottom: 25px;
-    }
-    .sub-title-carousel {
-        line-height: 28px;
+        line-height: 35px;
         font-size: 18px;
         max-width: 300px;
         margin-bottom: 25px;
@@ -2393,6 +2394,17 @@
     }
 }
 @media screen and (max-width: 768px) and (min-width: 320px){
+    .container-game{
+        overflow-y: hidden;
+    }
+    .tryba-drop:nth-child(28) {
+        top: 2509px;
+        left: 2px;
+    }
+    .tryba-drop:nth-child(29) {
+        top: 2522px;
+        left: 2px;
+    }
     .top-progress {
         max-width: 521px;
         margin-left: 120px;
@@ -3471,12 +3483,13 @@
     }
     .title-carousel {
         font-size: 27px;
+        margin-bottom: 10px;
     }
     .sub-title-carousel {
-        line-height: 25px;
+        line-height: 35px;
         font-size: 18px;
         max-width: 308px;
-        margin-bottom: 25px;
+        margin-bottom: 18px;
     }
     .container-fluid{
         padding-right: 0px;
