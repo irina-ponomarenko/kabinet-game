@@ -469,7 +469,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -63px;
+    top: 24px;
+    bottom: inherit;
     padding-top: 18px;
     background: linear-gradient(to bottom, rgba(222,222,222,1) 0%, rgba(241,241,241,1) 100%);
     border-bottom-left-radius: 25px;
@@ -478,6 +479,41 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     -moz-box-shadow: 0px 0px 0px 5px rgba(215,107,2,0.3);
     box-shadow: 0px 0px 0px 5px rgba(215,107,2,0.3);
     display: none;
+    max-height: 68px;
+    overflow-y: auto;
+}
+.list-db::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px;
+}
+
+.list-db::-webkit-scrollbar-track {
+    background-color:#ecedee;
+    margin-bottom: 18px;
+}
+
+.list-db::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: rgb(222, 222, 222);
+    margin-bottom: 10px;
+}
+
+.list-db::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+.list-db::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
 }
 .btn-drop-down span,
 .list-db li span{
@@ -2021,7 +2057,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
  }
  .title-modal{
     background: linear-gradient(to right, rgba(231,148,32,1) 0%, rgba(230,147,31,1) 100%);
-    max-width: 234px;
     width: 100%;
     border-radius: 15px;
     display: flex;
@@ -4409,8 +4444,8 @@ border-radius: 10px;
 }
 .container-questions{
     margin: 0 auto;
-    margin-top: 60px;
-    width: 80%;
+    margin-top: 70px;
+    width: 85%;
 }
 .header-item{
     padding: 15px 0;
