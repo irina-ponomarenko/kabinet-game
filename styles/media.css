@@ -3478,6 +3478,10 @@
     .mobile-banner {
         width: 100%;
     }
+    .list-db{
+        max-height: 146px;
+        overflow-y: auto;
+    }
     .title-carousel {
         font-size: 27px;
         margin-bottom: 10px;
