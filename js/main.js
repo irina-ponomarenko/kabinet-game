@@ -216,4 +216,38 @@ $('.btn-drop-down').click(function () {
     /* If the user clicks anywhere outside the select box,
     then close all select boxes: */
     document.addEventListener("click", closeAllSelect);
+
+
+    /*-------------------trx accordeon other-btn----------------------*/
+    $('.more-info').on('click', function (event) {
+        event.preventDefault();
+       $(this).closest('.other-block').find('.list-other-wrapper').slideToggle();
+        $(this).slideToggle(500);
+        setTimeout(() => {
+            $(this).closest('.other-block').find('.more-info-hide').slideDown();
+        }, 500);
+
+    });
+    $('.more-info-hide').on('click', function (event) {
+        event.preventDefault();
+        $(this).closest('.other-block').find('.list-other-wrapper').slideToggle();
+        $(this).slideToggle(500)
+        setTimeout(() => {
+            $(this).closest('.other-block').find('.more-info').slideDown();
+        }, 500);
+    });
+
+    /*-------------------tabs-------------*/
+    $('.tab_content').hide();
+    $('.tab_content:first').show();
+    $('.tabs li:first').addClass('active');
+    $('.tabs li').click(function(event) {
+        $('.tabs li').removeClass('active');
+        $(this).addClass('active');
+        $('.tab_content').hide();
+
+        var selectTab = $(this).find('a').attr("href");
+
+        $(selectTab).fadeIn();
+    });
 });
