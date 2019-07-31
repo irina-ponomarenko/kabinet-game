@@ -4802,7 +4802,7 @@ body.dialogShowing {
     font-weight: bold;
     color: #2963e0;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 18px;
 }
 .no-wallet:hover{
     transition: .3s;
@@ -5152,4 +5152,13 @@ body.dialogShowing {
     background-size: contain;
     top: 50%;
     transform: translateY(-50%);
+}
+.sub-title{
+    font-size: 18px;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.current{
+    display: inherit;
 }

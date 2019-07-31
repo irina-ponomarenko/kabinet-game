@@ -238,16 +238,21 @@ $('.btn-drop-down').click(function () {
     });
 
     /*-------------------tabs-------------*/
-    $('.tab_content').hide();
-    $('.tab_content:first').show();
-    $('.tabs li:first').addClass('active');
-    $('.tabs li').click(function(event) {
-        $('.tabs li').removeClass('active');
-        $(this).addClass('active');
-        $('.tab_content').hide();
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
 
-        var selectTab = $(this).find('a').attr("href");
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
 
-        $(selectTab).fadeIn();
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    });
+/*----------------------scroll-to-link--------------------*/
+
+    $("#wallet").on("click","a", function (event) {
+        event.preventDefault(); //опустошим стандартную обработку
+        var id  = $(this).attr('href'), //заберем айдишник блока с параметром URL
+            top = $(id).offset().top; //определим высоту от начала страницы до якоря
+        $('body,html').animate({scrollTop: top}, 1500); //сделаем прокрутку за 1 с
     });
 });

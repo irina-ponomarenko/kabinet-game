@@ -110,8 +110,8 @@
         <header class="header-sections">
             <h2 class="section-title">Easy buy TRX</h2>
         </header>
-        <div class="container-trx-info">
-              <a href="" class="no-wallet">У меня все еще нет кошелька TRX?</a>
+        <div class="container-trx-info" id="wallet">
+              <a href="#NoWallet" class="no-wallet">У вас все еще нет кошелька TRX?</a>
               <div class="block-about-trx">
                   <h3 class="title-about">Рекомендуемые обменные сервисы игры BeeHive</h3>
                   <div class="blockquote-trx">
@@ -192,28 +192,24 @@
                         <p class="text-other">
                             <a href="" class="text-link">https://www.tronwallet.me/buy-tron-trx</a>
                             - сайт официального кошелька Tron, позволяет купить TRX с VISA и MasterCard на сумму 25$ и меньше без верификации и на суммы больше после регистрации.
-                            <span class="more-about">Подробнее</span>
                         </p>
                     </li>
                     <li class="more-item">
                         <p class="text-other">
                             <a href="" class="text-link">https://indacoin.com</a>
                             - площадка позволяющая купить TRX с VISA и MasterCard, минимальная сумма покупки в эквиваленте 100 у.е.
-                            <span class="more-about active-more">Подробнее</span>
                         </p>
                     </li>
                     <li class="more-item">
                         <p class="text-other">
                             <a href="" class="text-link">https://www.bestchange.ru </a>
                             - мониторинг обменников (преимущественно для русскоговорящего сегмента). Есть англоязычная версия сайта - https://www.bestchange.com/, но на ней присутствует значительно меньшее количество направлений обмена.
-                            <span class="more-about">Подробнее</span>
                         </p>
                     </li>
                     <li class="more-item">
                         <p class="text-other">
                             <a href="" class="text-link">https://coinswitch.co</a>
                             - площадка, которая ищет лучшие варианты обмена фиата или криптовалюты на нужную Вам криптовалюту. Среди плюсов - один из лучших курсов, отсутствие регистраций и верификаций, даже если обмен происходит с использованием биржи Binance.
-                            <span class="more-about">Подробнее</span>
                         </p>
                     </li>
                     <li class="more-item">
@@ -223,18 +219,16 @@
                             - однотипные продукты, если не сказать идентичные, направленные на обмен одной криптовалюты на другую, в нашем случае TRX.
                             Не требуют ни верификаций, ни проверок, ни регистраций.
                             Транзакция, обычно занимает до 30 минут.
-                            <span class="more-about">Подробнее</span>
                         </p>
                     </li>
                     <li class="more-item">
                         <p class="text-other">
                             <a href="" class="text-link">https://coingate.com</a>
                             - возможность купить TRX с банковского счета SEPA или прямым банковским переводом для таких стран как: China, Thailand, Indonesia, Malaysia, Vietnam. Есть возможность купить с аккаунтов Skrill и Neteller, а также со счета сотовых операторов.
-                            <span class="more-about">Подробнее</span>
                         </p>
                     </li>
                 </ol>
-                <h3 class="title-about">Для мобильных устройств:</h3>
+                <h3 class="title-about sub-title">Для мобильных устройств:</h3>
                 <ol class="more-list mobile-other">
                     <li class="more-item">
                         <p class="text-other">
@@ -284,15 +278,15 @@
                 </ol>
             </div>
         </div>
-        <div class="masonry">
+        <div class="masonry" id="NoWallet">
             <ul class="tabs">
-                <li>
+                <li class="tab-link current" data-tab="tab-1">
                     <h3 class="title-about">Я планирую использовать</h3>
                     <a href="#tab1">
                         <span class="btn-tab pc-tab">ПК</span>
                     </a>
                 </li>
-                <li>
+                <li class="tab-link" data-tab="tab-2">
                     <a href="#tab2">
                         <span class="btn-tab smart-tab">смартфон </span>
                     </a>
@@ -300,7 +294,7 @@
                 </li>
             </ul>
             <div class="tab_container">
-                <div id="tab1" class="tab_content">
+                <div id="tab-1" class="tab-content current">
                     <h3 class="title-about">Варианты участия с ПК:</h3>
                     <div class="blockquote-trx">
                         <p>Мы считаем, что для ПК оптимально использовать браузерные расширения для Google Chrome.
@@ -343,7 +337,7 @@
                         </li>
                     </ol>
                 </div>
-                <div id="tab2" class="tab_content">
+                <div id="tab-2" class="tab-content">
                     <h3 class="title-about">Установите на свой смартфон приложение со списка:</h3>
                     <div class="blockquote-trx">
                         <p>Вы можете участвовать в игре BeeHive используя свой смартфон. Оптимальными, на наш взгляд, являются следующие приложения:</p>
