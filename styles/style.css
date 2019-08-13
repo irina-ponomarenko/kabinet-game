@@ -5162,3 +5162,11 @@ body.dialogShowing {
 .tab-content.current{
     display: inherit;
 }
+.transaction{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    max-width: 110px;
+    display: inline-block;
+}
