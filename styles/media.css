@@ -4321,7 +4321,9 @@
     .wrapper-list-statistic .statistic-item .info-item{
         max-width: 193px;
     }
-
+    .mobile-upgrade {
+        display: none;
+    }
 }
 @media only screen  and (max-width: 415px){
     .buy-wax .balance-footer-block {
@@ -4341,7 +4343,7 @@
         height: 88vh;
     }
     .wrapper-modal.buy-wax{
-        height: 83vh;
+        height: 100%;
     }
     .wrapper-modal.new-round-modal.airdrop{
         height: 77vh;
