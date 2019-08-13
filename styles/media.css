@@ -4228,16 +4228,15 @@
         padding: 0;
     }
     .wrapper-modal{
-        height: 87vh;
+        height: 100%;
     }
     .cryptobee{
-        height: 92vh;
+        height: 100%;
     }
     .container-bottom-input{
         margin-top: 30px;
     }
     .wrapper-modal {
-        height: calc(100vh - 55px);
         z-index: 9999999999 !important;
     }
     .cryptobee .img-bee img {
@@ -4248,7 +4247,7 @@
         margin-bottom: 10px;
     }
     .wrapper-modal.error-modal{
-        height: 72vh;
+        height: 100%;
     }
     .landing-statistic-item {
         max-width: 193px;
@@ -4334,22 +4333,22 @@
     }
 
     .wrapper-modal.new-round-modal-2{
-        height: 80vh;
+        height: 100%;
     }
     .wrapper-modal.pay-bee{
-        height: 78vh;
+        height: 100%;
     }
     .wrapper-modal.cryptobee{
-        height: 88vh;
+        height: 100%;
     }
     .wrapper-modal.buy-wax{
         height: 100%;
     }
     .wrapper-modal.new-round-modal.airdrop{
-        height: 77vh;
+        height: 100%;
     }
     .wrapper-modal.new-game-modal{
-        height: 87vh;
+        height: 100%;
     }
 }
 
@@ -4487,37 +4486,37 @@
 
 @media only screen and (max-width: 375px) {
     .wrapper-modal.new-round-modal-2{
-        height: 92vh;
+        height: 100%;
     }
     .wrapper-modal.pay-bee{
-        height: 90vh;
+        height: 100%;
     }
     .wrapper-modal.cryptobee{
-        height: 93vh;
+        height: 100%;
     }
     .wrapper-modal.buy-wax{
-        height: 91vh;
+        height: 100%;
     }
     .wrapper-modal.new-round-modal.airdrop{
-        height: 88vh;
+        height: 100%;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .wrapper-modal.new-round-modal-2{
-        height: 92vh;
+        height: 100%;
     }
     .wrapper-modal.pay-bee{
-        height: 90vh;
+        height: 100%;
     }
     .wrapper-modal.cryptobee{
-        height: 93vh;
+        height: 100%;
     }
     .wrapper-modal.buy-wax{
-        height: 91vh;
+        height: 100%;
     }
     .wrapper-modal.new-round-modal.airdrop{
-        height: 89vh;
+        height: 100%;
     }
 }
 
