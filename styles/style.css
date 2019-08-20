@@ -5170,3 +5170,11 @@ body.dialogShowing {
     max-width: 110px;
     display: inline-block;
 }
+.game-need{
+    font-size: 16px;
+    color: #4d4d4d;
+    max-width: 335px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}

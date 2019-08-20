@@ -9,6 +9,9 @@
         height: 589px;
         background-size: contain;
     }
+    .attention-text{
+        margin-bottom: 25px;
+    }
     .container-modal {
         min-height: 385px;
     }
@@ -3526,6 +3529,10 @@
     }
     .mobile-banner {
         width: 100%;
+    }
+    .game-need {
+        font-size: 14px;
+        max-width: 300px;
     }
     .list-db{
         max-height: 146px;
