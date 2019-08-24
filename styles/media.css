@@ -3616,6 +3616,9 @@
         border-radius: 8px;
         height: 34px;
     }
+    .wrapper-modal{
+        z-index: 100000000000000000000;
+    }
     .item-time{
         border-radius: 10px;
         height: 36px;
