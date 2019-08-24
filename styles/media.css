@@ -3605,11 +3605,16 @@
         max-width: 164px;
     }
     .score p{
-        font-size: 18px;
+        font-size: 15px;
+    }
+    .score span {
+        font-weight: bold;
+        font-size: 14px;
     }
     .score{
-        padding: 8px 0;
+        padding: 0 0;
         border-radius: 8px;
+        height: 34px;
     }
     .item-time{
         border-radius: 10px;
