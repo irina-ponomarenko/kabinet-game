@@ -883,7 +883,7 @@
     }
     .reffer-link-container {
         padding: 10px;
-        max-width: 320px;
+        max-width: 98%;
         width: 100%;
     }
     .reffer-btn{
@@ -918,6 +918,9 @@
     }
     .container-bee-carousel-item{
         padding: 0;
+    }
+      .your-reit, .your-reit span{
+        font-size: 32px;
     }
 
 
@@ -1347,12 +1350,12 @@
     .wrapper-reward span {
         font-size: 28px;
     }
-    .wax-reward:before{
-        width: 50px;
-        height: 42px;
+   .wax-reward:before {
+        width: 40px;
+        height: 36px;
     }
     .wax-reward {
-        padding-left: 61px;
+        padding-left: 48px;
     }
     .honey-reward:before{
         width: 43px;
@@ -2563,6 +2566,22 @@
     .tabs li a{
         margin: 25px 0;
     }
+     .your-reit, .your-reit span{
+        margin: 7px 0;
+    }
+    .next-reward {
+        margin-top: 15px;
+    }
+    .cripto-transfer {
+        top: 26%;
+        z-index: 1000000;
+        width: 48px;
+        height: 52px;
+        font-size: 15px;
+    }
+    .wrapper-social-list {
+        top: 281px;
+    }
 
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -2636,9 +2655,9 @@
     .flythat img {
         max-width: 90px;
     }
-    .wax-reward:before {
-        width: 40px;
-        height: 32px;
+      .wax-reward:before {
+        width: 35px;
+        height: 29px;
     }
     .wax-reward:before{
         top: -3px;
@@ -2646,8 +2665,8 @@
     .wrapper-reward span {
         font-size: 25px;
     }
-    .wax-reward {
-        padding-left: 45px;
+       .wax-reward {
+        padding-left: 38px;
     }
     .title-modal{
         padding: 3px 10px;
@@ -2669,9 +2688,9 @@
         bottom: 14px;
         font-size: 14px;
     }
-    .give-medale {
-        margin-top: 11px;
-        margin-bottom: 12px;
+   .give-medale {
+        margin-top: 7px;
+        margin-bottom: 7px;
         font-size: 16px;
     }
     .title-reward {
@@ -2683,8 +2702,8 @@
         font-size: 16px;
         margin-top: 5px;
     }
-    .next-reward {
-        margin-top: 17px;
+   .next-reward {
+        margin-top: 10px;
     }
     .summa-dohod img{
         max-width: 25px;
@@ -2999,7 +3018,9 @@
     .error-img img {
         max-width: 135px;
     }
-
+      .your-reit, .your-reit span {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 720px) and (min-width: 320px) {
@@ -3579,6 +3600,9 @@
         margin-left: 77px;
         max-width: 285px;
         height: 25px;
+    }
+    .cripto-transfer {
+        right: 5px;
     }
     .stub-text {
         font-size: 13px;
@@ -4294,7 +4318,6 @@
     }
     .reffer-link-container{
         padding: 8px;
-        max-width: 190px;
     }
     .reffer-link{
         max-width: 180px;
@@ -4340,6 +4363,13 @@
     }
     .mobile-upgrade {
         display: none;
+    }
+    .change-sponsor{
+        font-size: 14px;
+    }
+    .wrapper-social-list {
+        top: 263px;
+        right: 5px;
     }
 }
 @media only screen  and (max-width: 415px){
@@ -4419,6 +4449,25 @@
     }
     .wrapper-input{
         max-width: 312px;
+    }
+    .cripto-transfer {
+        top: 30%;
+    }
+    .social-item {
+        margin-bottom: 6px;
+    }
+     .social-link {
+        width: 28px;
+        height: 28px;
+        font-size: 10px;
+    }
+    .social-icon {
+        width: 31px;
+        height: 34px;
+        background-size: 43%;
+    }
+    .fb-icon, .bt-icon {
+        background-size: 30%;
     }
     .wrapper-content-round.no-active-round::after {
         left: 13px;

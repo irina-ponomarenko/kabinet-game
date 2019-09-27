@@ -23,7 +23,13 @@ $('.btn-drop-down').click(function () {
         });
     })(jQuery);
 
-
+    /*------------------list social active-----------------*/
+    $(".social-item").on('click', function () {
+        $(this).find(".social-sub-list").slideToggle(1, function() {
+            if ($(this).is(':visible'))
+                $(this).css('display','flex');
+        });
+    });
 
     /*--------------------------modal window-------------------*/
     $("#modal-text").flythat({
@@ -96,30 +102,41 @@ $('.btn-drop-down').click(function () {
     $("#modal-text22").flythat({
         fadeIn: 'slow'
     });
+    $("#modal-text23").flythat({
+        fadeIn: 'slow'
+    });
+
+    $("#modal-text24").flythat({
+        fadeIn: 'slow'
+    });
 
     $(".btn-menu").click(function() {
 
         $(".mobile-menu").toggleClass("active-mobile-menu");
+        $(".cripto-transfer").fadeToggle();
     });
     $(".close-btn-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
+        $(".cripto-transfer").fadeIn();
     });
       $(".close-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
+          $(".cripto-transfer").fadeIn();
     });
     $(".close-modal-mobile").click(function() {
         $(".mobile-menu").removeClass("active-mobile-menu");
+        $(".cripto-transfer").fadeIn();
     });
 
 
-	 $('.jcarousel').jcarouselAutoscroll({
-	 	autostart: true
-	 });
+     $('.jcarousel').jcarouselAutoscroll({
+        autostart: true
+     });
 
-	 $('.btn-menu-landing').on('click', function(){
-	 	$(this).closest('.landing-header').find('.mobile-wrapper-menu-landing').slideToggle();
+     $('.btn-menu-landing').on('click', function(){
+        $(this).closest('.landing-header').find('.mobile-wrapper-menu-landing').slideToggle();
 
-	 });
+     });
 
 
 
@@ -254,5 +271,14 @@ $('.btn-drop-down').click(function () {
         var id  = $(this).attr('href'), //заберем айдишник блока с параметром URL
             top = $(id).offset().top; //определим высоту от начала страницы до якоря
         $('body,html').animate({scrollTop: top}, 1500); //сделаем прокрутку за 1 с
+    });
+/*----------------------close landing news--------------*/
+
+    $(".close-window").on('click', function () {
+       $('.news-window-wrapper').fadeOut();
+    });
+
+    $(".close-window").on('click', function () {
+        $('.close-window-bottom').fadeOut();
     });
 });
