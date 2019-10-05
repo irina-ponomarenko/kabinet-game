@@ -23,14 +23,14 @@ $('.btn-drop-down').click(function () {
         });
     })(jQuery);
 
-    /*------------------list social active-----------------*/
+    /*------------------list social active-----------------*/  /*----------------перенести----------------*/
     $(".social-item").on('click', function () {
         $(this).find(".social-sub-list").slideToggle(1, function() {
             if ($(this).is(':visible'))
                 $(this).css('display','flex');
         });
     });
-
+    /*---------------------------------------*/
     /*--------------------------modal window-------------------*/
     $("#modal-text").flythat({
         fadeIn: 'slow'
