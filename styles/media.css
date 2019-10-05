@@ -267,6 +267,7 @@
         width: 100%;
         display: block;
     }
+    /*----------------перенести стиль----------------*/
     .give-medale {
         font-size: 24px;
         margin-top: 32px;
@@ -294,6 +295,7 @@
         font-size: 18px;
         margin-top: 9px;
     }
+    /*-------------------------------------------------*/
     .reward-btn {
         width: 195px;
         height: 53px;
@@ -737,15 +739,17 @@
     .give-big-medal img{
         width: 140px;
     }
+    /*-----------------перенести стиль------------*/
     .give-medale-1{
-        font-size: 21px;
-        margin-top: 19px;
-        margin-bottom: 19px;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .reward-2{
         font-size: 24px;
         margin-bottom: 20px;
     }
+    /*------------------------------------------*/
     .new-round-modal-2{
         max-width: 565px;
         height: 416px;
@@ -881,6 +885,7 @@
         margin-top: 25px;
         min-height: 292px;
     }
+    /*----------------перенести стиль----------------*/
     .reffer-link-container {
         padding: 9px;
         max-width: 98%;
@@ -890,6 +895,7 @@
         width: 20px;
         height: 20px;
     }
+    /*---------------------------------------------*/
     .glashatai {
         margin: 0 auto;
         margin-bottom: 30px;
@@ -919,10 +925,14 @@
     .container-bee-carousel-item{
         padding: 0;
     }
+    /*----------------перенести стиль----------------*/
       .your-reit, .your-reit span{
         font-size: 32px;
     }
-
+    .wrapper-social-list{
+        top: 225px;
+    }
+    /*----------------------------------------*/
 
 }
 
@@ -1337,6 +1347,7 @@
         align-items: center;
         margin-top: 20px;
     }
+    /*----------------перенести стиль----------------*/
     .give-medale{
         margin-top: 20px;
         margin-bottom: 15px;
@@ -1380,6 +1391,7 @@
         height: 25px;
         top: -2px;
     }
+    /*----------------------------------------------*/
     .next-reward .honey-reward:before {
         width: 25px;
         height: 26px;
@@ -2566,6 +2578,7 @@
     .tabs li a{
         margin: 25px 0;
     }
+    /*----------------перенести стиль----------------*/
      .your-reit, .your-reit span{
         margin: 7px 0;
     }
@@ -2573,7 +2586,7 @@
         margin-top: 15px;
     }
     .cripto-transfer {
-        top: 26%;
+        top: 222px;
         z-index: 1000000;
         width: 48px;
         height: 52px;
@@ -2582,6 +2595,7 @@
     .wrapper-social-list {
         top: 281px;
     }
+    /*-------------------------------------------*/
 
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -2659,15 +2673,17 @@
         width: 35px;
         height: 29px;
     }
+    /*----------------перенести стиль----------------*/
     .wax-reward:before{
         top: -3px;
     }
     .wrapper-reward span {
         font-size: 25px;
     }
-       .wax-reward {
+    .wax-reward {
         padding-left: 38px;
     }
+    /*-------------------------------------------------*/
     .title-modal{
         padding: 3px 10px;
     }
@@ -2688,6 +2704,7 @@
         bottom: 14px;
         font-size: 14px;
     }
+    /*----------------перенести стиль----------------*/
    .give-medale {
         margin-top: 7px;
         margin-bottom: 7px;
@@ -2705,6 +2722,7 @@
    .next-reward {
         margin-top: 10px;
     }
+    /*--------------------------------------------------------*/
     .summa-dohod img{
         max-width: 25px;
     }
@@ -2975,6 +2993,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    /*----------------перенести стиль----------------*/
     .attention-text {
         font-size: 14px;
         color: #f24f1e;
@@ -2983,6 +3002,7 @@
         margin: 0 auto;
         margin-bottom: 10px;
     }
+    /*------------------------------------------*/
     .game-info {
         font-size: 14px;
         color: #4d4d4d;
@@ -3018,9 +3038,11 @@
     .error-img img {
         max-width: 135px;
     }
+    /*----------------перенести стиль----------------*/
       .your-reit, .your-reit span {
         font-size: 22px;
     }
+    /*----------------------------------------------*/
 }
 
 @media screen and (max-width: 720px) and (min-width: 320px) {
@@ -3601,9 +3623,12 @@
         max-width: 285px;
         height: 25px;
     }
+    /*----------------перенести стиль----------------*/
     .cripto-transfer {
         right: 5px;
+        top: 195px;
     }
+    /*---------------------------------------*/
     .stub-text {
         font-size: 13px;
         max-width: 318px;
@@ -4316,6 +4341,7 @@
     .header-navigation .go-to-game{
         width: 100px;
     }
+    /*----------------перенести стиль----------------*/
     .reffer-link-container{
         padding: 8px;
     }
@@ -4333,6 +4359,7 @@
     .wrapper-reffer-link + .container-table {
         margin-top: 15px;
     }
+    /*----------------------------------------------------*/
     .table-arrow {
         width: 8px;
         height: 15px;
@@ -4367,10 +4394,12 @@
     .change-sponsor{
         font-size: 14px;
     }
+    /*----------------перенести стиль----------------*/
     .wrapper-social-list {
         top: 263px;
         right: 5px;
     }
+    /*-------------------------------------------------*/
 }
 @media only screen  and (max-width: 415px){
     .buy-wax .balance-footer-block {
@@ -4450,6 +4479,7 @@
     .wrapper-input{
         max-width: 312px;
     }
+    /*----------------перенести стиль----------------*/
     .cripto-transfer {
         top: 30%;
     }
@@ -4469,6 +4499,7 @@
     .fb-icon, .bt-icon {
         background-size: 30%;
     }
+    /*---------------------------------------------*/
     .wrapper-content-round.no-active-round::after {
         left: 13px;
         right: 11px;
@@ -4522,10 +4553,12 @@
     .header-sections{
         padding-bottom: 25px;
     }
+    /*----------------перенести стиль----------------*/
     .reffer-btn{
-        width: 101px;
+        width: 20px;
         font-size: 13px;
     }
+    /*----------------------------------------------*/
     .item-btn{
         margin-right: 0;
     }
@@ -4636,6 +4669,7 @@
     .activ-honey:before{
         top: -1px;
     }
+    /*----------------перенести стиль----------------*/
     .attention-text {
         font-size: 14px;
         color: #f24f1e;
@@ -4644,6 +4678,7 @@
         margin: 0 auto;
         margin-bottom: 18px;
     }
+    /*---------------------------------------------------*/
     .wallet-input {
         border-radius: 10px;
         border: 2px solid #e38d11;
@@ -4690,6 +4725,12 @@
     .error-text{
         margin-top: 25px;
     }
+    /*----------------перенести стиль----------------*/
+    .give-medale {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    /*-----------------------------------------------*/
 
 }
 @media screen and (max-width: 360px) and (min-width: 320px) {

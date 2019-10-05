@@ -2890,11 +2890,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     align-items: center;
     justify-content: center;
 }
+/*----------------перенести стиль----------------*/
 .wrapper-reward span{
     font-size: 38px;
     font-weight: bold;
     color: #7b3701;
 }
+/*-------------------------------------------------*/
 .wax-reward{
     padding-left: 77px;
     position: relative;
@@ -2923,6 +2925,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
    height: 52px;
    top: -7px;
 }
+/*----------------перенести стиль----------------*/
 .title-reward{
     font-size: 26px;
     color: #f24f1e;
@@ -2961,7 +2964,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .next-reward .wax-reward:before{
      width: 41px;
     height: 35px;
-
 }
 .next-reward .honey-reward{
     padding-left: 44px;
@@ -2973,6 +2975,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .next-reward{
     margin-top: 22px;
 }
+/*---------------------------------------------------*/
 .summa-transaction{
     padding-left: 0;
 }
@@ -3797,6 +3800,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 /*------------------------------------end landing style----------------*/
 
+/*----------------перенести стиль----------------*/
 .title-reffer{
     font-size: 14px;
     color: #4d4d4d;
@@ -3834,6 +3838,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin-top: 25px;
     min-height: 422px;
 }
+/*--------------------------------------------*/
 .paseca .table-modal tbody {
     max-height: 365px;
 }
@@ -5172,6 +5177,7 @@ body.dialogShowing {
     margin: 0 auto;
     margin-top: 15px;
 }
+/*----------------перенести стиль----------------*/
 .reffer-btn{
     width: 20px;
     height: 25px;
@@ -5179,6 +5185,7 @@ body.dialogShowing {
     background-size: contain;
     border: none;
 }
+/*--------------------------------------------------------*/
 /*----------------news landing----------------*/
 .close-window{
     width: 46px;
@@ -5318,6 +5325,7 @@ body.dialogShowing {
     margin-left: 15px;
     display: flex;
 }
+/*----------------перенести стиль----------------*/
 .add-monet span{
     font-size: 12px;
     color: #d57518;
@@ -5346,7 +5354,9 @@ body.dialogShowing {
     margin: 14px 0;
     font-weight: bold;
 }
+/*-------------------------------------------------*/
 
+/*----------------перенести стиль----------------*/
 /*---------------SOCIAL ICON------------*/
 .wrapper-social-list{
     position: fixed;
@@ -5499,3 +5509,5 @@ body.dialogShowing {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+
+/*-------------------------------------------------------*/
