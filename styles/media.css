@@ -887,7 +887,7 @@
     }
     /*----------------перенести стиль----------------*/
     .reffer-link-container {
-        padding: 9px;
+        padding: 8px 10px;
         max-width: 98%;
         width: 100%;
     }
@@ -2138,7 +2138,7 @@
         min-height: 422px;
     }
     .reffer-link-container{
-        padding: 10px;
+        padding: 7px 9px;
     }
     .wrapper-result-mehanica{
         text-align: center;
@@ -2596,6 +2596,11 @@
         top: 281px;
     }
     /*-------------------------------------------*/
+
+    .reffer-link{
+        line-height: 21px;
+        height: 22px;
+    }
 
 }
 @media screen and (max-width: 1024px)and (min-width: 768px) and (orientation:portrait){
@@ -4343,10 +4348,12 @@
     }
     /*----------------перенести стиль----------------*/
     .reffer-link-container{
-        padding: 8px;
+        padding: 5px;
     }
     .reffer-link{
-        max-width: 180px;
+        line-height: 14px;
+        height: 17px;
+        font-size: 13px;
     }
     .wrapper-reffer-link{
         max-width: 321px;
@@ -4400,6 +4407,18 @@
         right: 5px;
     }
     /*-------------------------------------------------*/
+
+    .landing-social {
+        top: 170px;
+    }
+    .landing-transfer{
+        top: 101px;
+    }
+    .social-link{
+        width: 30px;
+        height: 36px;
+        font-size: 11px;
+    }
 }
 @media only screen  and (max-width: 415px){
     .buy-wax .balance-footer-block {
@@ -4483,13 +4502,25 @@
     .cripto-transfer {
         top: 30%;
     }
+    .landing-transfer{
+        top: 100px;
+    }
+    .landing-social {
+        top: 162px;
+    }
     .social-item {
         margin-bottom: 6px;
     }
+    .social-sub-item {
+        margin-right: 4px;
+    }
+    .social-sub-item:last-child {
+        margin-right: 0;
+    }
      .social-link {
-        width: 31px;
-        height: 34px;
-        font-size: 10px;
+         width: 27px;
+         height: 30px;
+         font-size: 9px;
     }
     .social-icon {
         width: 31px;
