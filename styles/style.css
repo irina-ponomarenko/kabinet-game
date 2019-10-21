@@ -5515,3 +5515,57 @@ body.dialogShowing {
 }
 
 /*-------------------------------------------------------*/
+
+
+/*------------------------------20.10--------------------*/
+
+.title-timer {
+    font-weight: bold;
+    font-size: 30px;
+    color: #7b3701;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 475px;
+    margin: 0 auto;
+}
+
+.item-timer {
+    display: inline-block;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Fira Sans';
+}
+
+.item-timer span {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+   color: #f24f1e;
+}
+.list-timer{
+    margin: 0 auto;
+    text-align: center;
+}
+.modal-timer{
+   background: url("../image/bg-modal-ok.png")no-repeat;
+   background-size: contain;
+}
+.modal-timer .container-modal {
+    min-height: 250px;
+}
+.wrapper-timer{
+    margin-top: 54px;
+}
+.timer-info{
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: justify;
+    color: #333333;
+    margin-top: 15px;
+}
+
+/*-------------------------------------------------------*/
