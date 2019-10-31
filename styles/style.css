@@ -5483,7 +5483,7 @@ body.dialogShowing {
     justify-content: center;
     align-items: center;
     top: 130px;
-    color: #fff;
+    color: #176000;
     background: url("../image/eth.png")no-repeat;
     background-size: contain;
     z-index: 100000;
