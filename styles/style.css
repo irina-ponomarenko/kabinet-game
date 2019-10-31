@@ -5475,8 +5475,8 @@ body.dialogShowing {
 .cripto-transfer{
     position: fixed;
     right: 10px;
-    width: 60px;
-    height: 70px;
+    width: 70px;
+    height: 80px;
     font-weight: bolder;
     font-size: 20px;
     display: flex;
@@ -5487,8 +5487,49 @@ body.dialogShowing {
     background: url("../image/eth.png")no-repeat;
     background-size: contain;
     z-index: 100000;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.cripto-transfer::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: 2px;
+    bottom: 2px;
+    border-radius: 100%;
+    animation: radial-pulse 1s infinite;
+}
+.cripto-transfer::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: 2px;
+    bottom: 2px;
+    border-radius: 100%;
+    border: 1px solid rgba(82,198,0,1);
+    animation: pulse 1s infinite;
+}
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(82,198,0,0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgba(82,198,0,0);
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
 }
 
 /*-------------------------------------------------------*/
