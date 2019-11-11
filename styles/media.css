@@ -935,9 +935,12 @@
         font-size: 32px;
     }
     .wrapper-social-list{
-        top: 225px;
+        top: 262px;
     }
     /*----------------------------------------*/
+    .cripto-transfer{
+         top: 165px;
+    }
 
 }
 
