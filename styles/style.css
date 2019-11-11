@@ -5341,7 +5341,7 @@ body.dialogShowing {
 /*---------------SOCIAL ICON------------*/
 .wrapper-social-list{
     position: fixed;
-    top: 260px;
+    top: 295px;
     right: 10px;
     z-index: 1000;
 }
@@ -5482,7 +5482,7 @@ body.dialogShowing {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 130px;
+    top: 192px;
     color: #176000;
     background: url("../image/eth.png")no-repeat;
     background-size: contain;
